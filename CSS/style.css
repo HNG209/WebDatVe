@@ -7,3 +7,21 @@
       padding: 0
     }
   }
+.nav-item a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  top: 15px;
+  color: rgb(255, 255, 255) !important;
+}
+.nav-item:hover a img{
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.user:hover{
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
