@@ -21,11 +21,21 @@
   top: 15px;
   color: rgb(255, 255, 255) !important;
 }
-.nav-item:hover a img{
+.nav-item:hover a{
+  background-color: #293033;
+
   transform: translateY(-10px);
   transition: 0.5s;
 }
 .user:hover{
+  
+  background-color: #293033;
   transform: translateY(-10px);
   transition: 0.5s;
 }
+.col img{
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+}
+

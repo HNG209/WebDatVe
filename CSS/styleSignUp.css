@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(../IMAGE/BackGroud_SignUp.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 400px;
+    height: 450px;
+
+}
+.form-value
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+.input-box{
+    position: relative;
+    border-bottom: 2px solid rgb(156, 144, 144);
+    margin: 30px 0;
+    width: 300px;
+}
+.input-box input{
+    border: none;
+    outline: none;
+    width: 200px;
+    height:35px;
+    background-color: transparent;
+    opacity: 0.5;
+    padding: 10px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+input:focus ~ label,
+input:focus ~ valid{
+    top: -10px;
+    transition: 0.5s;
+}
+.input-box ion-icon{
+    position: absolute;
+    right: 8px;
+}
+.forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forget a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    font-weight: 700;
+}
+.forget label {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.forget div:hover a{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 900;
+    opacity: 0.6;
+}
+.register{
+    font-size: .9em;
+    text-align: center;
+    margin-top: 20px;
+}
+.register p a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+
+}
+.register p a:hover {
+    text-decoration: underline;
+}
+.return-home img{
+    position: absolute;
+    bottom: 68px;
+    right: 50px;
+    width: 30px;
+
+}
+.return-home img:hover {
+    transition: 0.5s;
+    transform: translateX(-20px);
+
+}
