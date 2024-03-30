@@ -7,18 +7,17 @@
     <title>Sign Up</title>
 </head>
 <body>
-    <div class="main">
-        <div class="form-box">
-            <div class="form-value">
+    <div class="wrapper">
+        <div class="form-box login">
                 <form action="">
-                    <h1>Sign Up</h1>
+                    <h1>Login</h1>
                     <div class="input-box">
-                        <input type="text" name="username" id="us">
+                        <input type="text" name="username" id="us" required>
                         <label for="">Username</label>
                         <ion-icon name="person-outline"></ion-icon>
                     </div>
                     <div class="input-box">
-                        <input type="password" name="password" id="pw">
+                        <input type="password" name="password" id="pw" required>
                         <label for="">Password</label>
                         <ion-icon name="lock-closed-outline"></ion-icon>
                     </div>
@@ -30,24 +29,70 @@
                         <label for="">Remenber me <input type="checkbox" name="" id=""></label>
                     </div>
                     <button>Log In</button>
-                    <div class="register">
+                    
+                    <div class="login-register">
                         <p>Don't have account 
-                            <div> 
+                            <div class="register-link"> 
                                 <a href="#">Register</a>
                                 <img src="../IMAGE/edit.png" alt="">
                             </div>
                         </p>
                         
                     </div>
-                    <div class="return-home">
-                        <a href="../HTML/index.html"><img src="../IMAGE/return.png" alt=""></a>
-                        
-                    </div>
                 </form>
-            </div>
+                <span class="return-home">
+                    <a href="../HTML/index.html"><img src="../IMAGE/return.png" alt=""></a>
+                </span>
         </div>
+
+        <div class="form-box register">
+            <form action="">
+                <h1>Sign Up</h1>
+                <div class="input-box">
+                    <input type="text" name="username" id="us" required>
+                    <label for="">Phone</label>
+                    <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="username" id="us" required>
+                    <label for="">Email</label>
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="username" id="us" required>
+                    <label for="">Username</label>
+                    <ion-icon name="person-outline"></ion-icon>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password" id="pw" required>
+                    <label for="">Password</label>
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+                <div class="forget">
+                    <label for=""><input type="checkbox" name="" id=""> I agree to the terms & conditions</label>
+                </div>
+                <button>Sign Up</button>
+                <div class="login-register">
+                    <p>Already have an account
+                        <div class="login-link"> 
+                            <a href="#">Login</a>
+                            <img src="../IMAGE/enter.png" alt="">
+                        </div>
+                    </p>  
+                </div>
+            </form>
+            <span class="return-home">
+                <a href="../HTML/index.html"><img src="../IMAGE/return.png" alt=""></a>
+            </span>
+    </div>   
     </div>
+    <script src="../JS/appSignUp.js"></script>
+    <script>
+        const register = document.querySelector('.register-link')
+    </script>
+
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
