@@ -3,54 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng kí tài khoản</title>
-    <style>
-        nav li{
-            list-style: none;
-            display: inline-block;
-            font-size: x-large;
-        }
-        nav li a{
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="../CSS/styleSignUp.css">
+    <title>Sign Up</title>
 </head>
 <body>
-    <div id="container" style="width: 90%; margin: auto;">
-        <header style="height: 150px; background-color: aqua;">
-            Banner của website
-        </header>
-
-        <nav style="height: 70px; background-color: burlywood;">
-            <center>
-                <ul style="margin-top: 0px; padding: 15px;">
-                    <li><a href="index.html">Home</a></li>
-                    <li>|</li>
-                    <li><a href="Movies.html">Phim</a></li>
-                    <li>|</li>
-                    <li><a href="Schedule.html">Lịch chiếu</a></li>
-                    <li>|</li>
-                    <li><a href="Theater.html">Rạp</a></li>
-                    <li>|</li>
-                    <li><a href="Login.html">Đăng nhập</a></li>
-                    <li>|</li>
-                    <li><a href="Signup.html">Đăng kí tài khoản</a></li>
-                    <li>|</li>
-                    <li><input type="text" style="margin-left: 20px;"></li>
-                    <li><button>Tìm kiếm</button></li>
-                </ul>
-            </center>
-        </nav>
-
-        <div id="content" style="height: 800px; background-color: aquamarine;">
-            <section>
-                Khung đăng kí tài khoản
-            </section>
+    <div class="main">
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h1>Sign Up</h1>
+                    <div class="input-box">
+                        <input type="text" name="username" id="us">
+                        <label for="">Username</label>
+                        <ion-icon name="person-outline"></ion-icon>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password" id="pw">
+                        <label for="">Password</label>
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </div>
+                    <div class="forget">
+                        <div>
+                            <a href="#">Forget Password</a>
+                            <img src="../IMAGE/forgot.png" alt="">
+                        </div>
+                        <label for="">Remenber me <input type="checkbox" name="" id=""></label>
+                    </div>
+                    <button>Log In</button>
+                    <div class="register">
+                        <p>Don't have account 
+                            <div> 
+                                <a href="#">Register</a>
+                                <img src="../IMAGE/edit.png" alt="">
+                            </div>
+                        </p>
+                        
+                    </div>
+                    <div class="return-home">
+                        <a href="../HTML/index.html"><img src="../IMAGE/return.png" alt=""></a>
+                        
+                    </div>
+                </form>
+            </div>
         </div>
-
-        <footer style="height: 200px;background-color: blue;">
-          Giới thiệu
-      </footer>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

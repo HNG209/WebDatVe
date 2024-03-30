@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(../IMAGE/BackGroud_SignUp.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 400px;
+    height: 450px;
+
+}
+.form-value
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+.input-box{
+    position: relative;
+    border-bottom: 2px solid rgb(156, 144, 144);
+    margin: 30px 0;
+    width: 300px;
+}
+.input-box input{
+    border: none;
+    outline: none;
+    width: 200px;
+    height:35px;
+    background-color: transparent;
+    opacity: 0.5;
+    padding: 10px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+input:focus ~ label,
+input:focus ~ valid{
+    top: -10px;
+    transition: 0.5s;
+}
+.input-box ion-icon{
+    position: absolute;
+    right: 8px;
+}
+.forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forget a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    font-weight: 700;
+}
+.forget div:hover a{
+    transform: translateX(-10px);
+    transition: 0.5s;
+}
+.forget div {
+    display: flex;
+    gap: 10px;
+ 
+
+}
+.forget div img{
+    opacity: 0;
+    width: 20px;
+}
+
+.forget div:hover img{
+    opacity: 1;
+    transform: translateX(-10px);
+    transition: 0.5s;
+}
+.forget label {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.forget div:hover a{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 900;
+    opacity: 0.6;
+}
+
+button:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+    transform: translateY(5px);
+}
+.register{
+    font-size: .9em;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+.register p  {
+    position: absolute;
+    margin: -11px 50px;
+}
+.register a{
+    position: absolute;
+    right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+
+}
+.register:hover a {
+    position: absolute;
+    text-decoration: underline;
+    transition: 0.5s;
+    transform: translateY(15px);
+}
+.register div {
+    position: absolute;
+    right:40px;
+    top: -10px;
+}
+.register div img{
+    opacity: 0;
+    width: 20px;
+
+}
+.register div:hover  img{
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateX(-40px);
+}
+
+.return-home{
+    position: absolute;
+    bottom: 62px;
+    right: 50px;
+}
+
+.return-home img{
+    bottom: 68px;
+    right: 50px;
+    width: 30px;
+
+}
+.return-home img:hover {
+    transition: 0.5s;
+    transform: translateX(-10px);
+
+}
+@media screen and (max-width : 350px){
+    .return-home img {
+        display: none;
+    }
+    
+}
