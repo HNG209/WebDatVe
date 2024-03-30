@@ -57,6 +57,7 @@ h1{
     left: 5px;
     transform: translateY(-50%);
 }
+
 input:focus ~ label,
 input:focus ~ valid{
     top: -10px;
@@ -77,6 +78,26 @@ input:focus ~ valid{
     display: flex;
     font-weight: 700;
 }
+.forget div:hover a{
+    transform: translateX(-10px);
+    transition: 0.5s;
+}
+.forget div {
+    display: flex;
+    gap: 10px;
+ 
+
+}
+.forget div img{
+    opacity: 0;
+    width: 20px;
+}
+
+.forget div:hover img{
+    opacity: 1;
+    transform: translateX(-10px);
+    transition: 0.5s;
+}
 .forget label {
     text-decoration: none;
     color: #000;
@@ -96,19 +117,50 @@ button{
     font-weight: 900;
     opacity: 0.6;
 }
+
+button:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+    transform: translateY(5px);
+}
 .register{
     font-size: .9em;
     text-align: center;
     margin-top: 20px;
+    position: relative;
 }
-.register p a{
+.register p  {
+    position: absolute;
+    margin: -11px 50px;
+}
+.register a{
+    position: absolute;
+    right: 20px;
     text-decoration: none;
     color: #000;
-    font-weight: 600;
+    font-weight: 900;
 
 }
-.register p a:hover {
+.register:hover a {
+    position: absolute;
     text-decoration: underline;
+    transition: 0.5s;
+    transform: translateY(15px);
+}
+.register div {
+    position: absolute;
+    right:40px;
+    top: -10px;
+}
+.register div img{
+    opacity: 0;
+    width: 20px;
+
+}
+.register div:hover  img{
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateX(-40px);
 }
 .return-home img{
     position: absolute;
