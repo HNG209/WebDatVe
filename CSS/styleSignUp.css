@@ -162,8 +162,14 @@ button:hover{
     transition: 0.5s;
     transform: translateX(-40px);
 }
-.return-home img{
+
+.return-home{
     position: absolute;
+    bottom: 62px;
+    right: 50px;
+}
+
+.return-home img{
     bottom: 68px;
     right: 50px;
     width: 30px;
@@ -171,6 +177,12 @@ button:hover{
 }
 .return-home img:hover {
     transition: 0.5s;
-    transform: translateX(-20px);
+    transform: translateX(-10px);
 
+}
+@media screen and (max-width : 350px){
+    .return-home img {
+        display: none;
+    }
+    
 }
