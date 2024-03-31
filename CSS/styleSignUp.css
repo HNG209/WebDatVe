@@ -14,11 +14,6 @@
     background: url(../IMAGE/BackGroud_SignUp.jpg) no-repeat;
     background-position: center;
     background-size: cover;
-
-
-}
-.wrapper.active{
-
 }
 
 .wrapper .form-box.login{
@@ -28,13 +23,14 @@
 
 .wrapper.active .form-box.login{
     transition: none;
-    transform: translateX(-900px);
+    transform: translateX(-400px);
 }
 
 .wrapper .form-box.register{
+    display: none;
     transition: none;
     position: absolute;
-    transform: translateX(1000px);
+    transform: translateX(400px);
 }
 .wrapper.active .form-box.register{
     transition: 0.5s;
