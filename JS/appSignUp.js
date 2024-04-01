@@ -7,19 +7,37 @@ const formBoxRegister = document.querySelector('.form-box.register')
 const formBoxLogin = document.querySelector('.form-box.login')
 
 
-registerLink.addEventListener('click',() => {
+registerLink.addEventListener('click', () => {
+    formBoxLogin.classList.add('centerToLeft');
+    formBoxRegister.classList.add('rightToCenter')
     wrapper.classList.add('active');
-    formBoxLogin.style.display = "none";
-    formBoxRegister.style.display = "flex";
-    wrapper.style.background ="url(../IMAGE/BackGroundRegister.jpg) no-repeat";
+
+    // wrapper.classList.add('centerToLeft');
+    // wrapper.classList.add('rightToCenter')
+
+    wrapper.style.background = "url(../IMAGE/BackGroundRegister.jpg) center/cover no-repeat";
+    setTimeout(() => {
+        formBoxLogin.style.display = "none";
+        formBoxRegister.style.display = "flex";
+
+    }, 100);
 })
 
 
 
-loginLink.addEventListener('click',() => {
+loginLink.addEventListener('click', () => {
+    formBoxLogin.classList.add('leftToCenter');
+    formBoxRegister.classList.add('centerToRight')
     wrapper.classList.remove('active');
-    formBoxRegister.style.display = "none";
-    formBoxLogin.style.display = "flex";
-    wrapper.style.background = "url(../IMAGE/BackGroud_SignUp.jpg) no-repeat";
+
+    // wrapper.classList.add('leftToCenter');
+    // wrapper.classList.add('centerToRight')
+    
+    wrapper.style.background = "url(../IMAGE/BackGroud_SignUp.jpg) center/cover no-repeat";
+    setTimeout(() => {
+        formBoxRegister.style.display = "none";
+        formBoxLogin.style.display = "flex";
+        
+    }, 100);
 
 })
