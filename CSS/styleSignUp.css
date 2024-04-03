@@ -4,32 +4,79 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.main{
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper{
+    transition: all 0.5s linear;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: url(../IMAGE/BackGroud_SignUp.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../IMAGE/BackGroud_SignUp.jpg) center/cover no-repeat;
+    animation: animebg 5s linear infinite;
 }
-.form-box{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    width: 400px;
-    height: 450px;
+@keyframes animebg{
+    100%{
+        filter: hue-rotate(320deg,black,gray,rgb(145, 10, 145));
+    }
+}
 
+
+.wrapper .form-box.login{
+    transition: 0.5s;
 }
-.form-value
-{
+
+/* .wrapper.active .form-box.login{
+    transition: none;
+} */
+
+.wrapper .form-box.register{
+    display: none;
+    transition: 0.5;
+    position: absolute;
+}
+/* .wrapper.active .form-box.register{
+    transition: 0.5s;
+} */
+
+ion-icon{
+    font-weight: 900;
+}
+.form-box.register{
+    
+}
+.wrapper .form-box{
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* border-left: 2px solid transparent; */
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;
+    /* animation: spinner 1s linear ; */
+    backdrop-filter: blur(2px);
+}
+
+.wrapper .form-box::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    color: #f10202;
+    z-index: 99;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(360deg);
+    }
 }
 
 h1{
@@ -45,10 +92,9 @@ h1{
 .input-box input{
     border: none;
     outline: none;
-    width: 200px;
-    height:35px;
+    width: 100%;
+    height:100%px;
     background-color: transparent;
-    opacity: 0.5;
     padding: 10px;
 }
 .input-box label{
@@ -56,21 +102,27 @@ h1{
     top: 50%;
     left: 5px;
     transform: translateY(-50%);
+    transition: 0.5s;
+    pointer-events: none;
+    font-weight: 600;
 }
 
-input:focus ~ label,
-input:focus ~ valid{
-    top: -10px;
-    transition: 0.5s;
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+    top: -5px;
 }
 .input-box ion-icon{
     position: absolute;
     right: 8px;
+    top: 5px;
 }
 .forget{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.forget label{
+    accent-color: rgb(17, 16, 16);
 }
 .forget a{
     text-decoration: none;
@@ -123,17 +175,18 @@ button:hover{
     transition: 0.5s;
     transform: translateY(5px);
 }
-.register{
+.login-register{
     font-size: .9em;
     text-align: center;
     margin-top: 20px;
     position: relative;
 }
-.register p  {
+.login-register p  {
     position: absolute;
     margin: -11px 50px;
+    font-weight: 600;
 }
-.register a{
+.login-register a{
     position: absolute;
     right: 20px;
     text-decoration: none;
@@ -141,48 +194,235 @@ button:hover{
     font-weight: 900;
 
 }
-.register:hover a {
+.login-register:hover a {
     position: absolute;
     text-decoration: underline;
     transition: 0.5s;
     transform: translateY(15px);
 }
-.register div {
+.login-register div {
     position: absolute;
     right:40px;
     top: -10px;
 }
-.register div img{
+.form-box.register .login-register p  {
+    position: absolute;
+    margin: -11px 30px;
+    font-weight: 600;
+}
+.form-box.register .login-register a{
+    position: absolute;
+    right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+
+}
+
+.login-register div img{
     opacity: 0;
     width: 20px;
 
 }
-.register div:hover  img{
+.login-register div:hover  img{
     opacity: 1;
     transition: 0.5s;
     transform: translateX(-40px);
 }
 
-.return-home{
-    position: absolute;
-    bottom: 62px;
+.return-home a{
+    position: relative;
+    bottom:  -145px;
     right: 50px;
 }
-
-.return-home img{
-    bottom: 68px;
+.form-box.register .return-home a{
+    position: relative;
+    bottom:  -215px;
     right: 50px;
+}
+.return-home img{
     width: 30px;
-
 }
 .return-home img:hover {
     transition: 0.5s;
     transform: translateX(-10px);
 
 }
-@media screen and (max-width : 350px){
+/* @media screen and (max-width : 350px){
     .return-home img {
         display: none;
     }
     
+} */
+
+.hide{
+    opacity: 0;
+}
+
+.centerToLeft {
+    animation: centerToLeft 1s linear; 
+}
+
+.leftToCenter {
+    animation: leftToCenter 1s linear; 
+}
+
+@keyframes centerToLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes leftToCenter {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.rightToCenter {
+    animation: rightToCenter 1s linear; 
+}
+
+.centerToRight {
+    animation: centerToRight 1s linear; 
+}
+
+
+
+@keyframes rightToCenter {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes centerToRight {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+/* Animetion line around form */
+.form-box.login a span{
+    position: absolute;
+    display: block;
+}
+.form-box.login a span:nth-child(1){
+    border-radius: 15px;
+    top: 0;
+    left: -100%;
+    height: 5px;
+    width: 30%;
+    background: linear-gradient(90deg,transparent,rgb(255, 255, 255));
+    animation: line-animetop 20s linear infinite;
+    
+}
+
+@keyframes line-animetop{
+    0%{
+        left: -30%;
+    }
+    50%{
+        left:100%;
+    }
+    100%{
+        left:100%;
+    }
+}
+
+
+.form-box.login a span:nth-child(2){
+    border-radius: 15px;
+    top: -100%;
+    right: 0;
+    height: 30%;
+    width: 5px;
+    background: linear-gradient(180deg,transparent,rgb(255, 255, 255));
+    animation: line-animeright 15s linear infinite;
+    animation-delay: 6s;
+}
+
+@keyframes line-animeright{
+    0%{
+        top: -70%;
+    }
+    50%{
+        top:100%;
+    }
+    100%{
+        top:100%;
+    }
+}
+.form-box.login a span:nth-child(3){
+    border-radius: 15px;
+    bottom: 0;
+    right: -100%;
+    height: 5px;
+    width: 30%;
+    background: linear-gradient(270deg,transparent,rgb(255, 255, 255));
+    animation: line-animebottom 15s linear infinite;
+    animation-delay: 11s;
+}
+
+@keyframes line-animebottom{
+    0%{
+        right: -50%;
+    }
+    50%{
+        right:100%;
+    }
+    100%{
+        right:100%;
+    }
+}
+.form-box.login a span:nth-child(4){
+    border-radius: 15px;
+    left: 0;
+    bottom: -100%;
+    height: 30%;
+    width: 5px;
+    background: linear-gradient(360deg,transparent,rgb(255, 255, 255));
+    animation: line-animeleft 15s linear infinite;
+    animation-delay: 16s;
+}
+
+@keyframes line-animeleft{
+    0%{
+        bottom: -50%;
+    }
+    50%{
+        bottom:100%;
+    }
+    100%{
+        bottom:100%;
+    }
+}
+
+
+.form-box.register a span{
+    position: absolute;
+    display: block;
 }
