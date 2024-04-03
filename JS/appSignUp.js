@@ -8,27 +8,35 @@ const formBoxLogin = document.querySelector('.form-box.login')
 
 
 registerLink.addEventListener('click', () => {
+    formBoxRegister.classList.remove('centerToRight')
+    formBoxLogin.classList.remove('leftToCenter');
+
+    wrapper.classList.add('active');
     formBoxLogin.classList.add('centerToLeft');
     formBoxRegister.classList.add('rightToCenter')
-    wrapper.classList.add('active');
+
 
     // wrapper.classList.add('centerToLeft');
     // wrapper.classList.add('rightToCenter')
 
-    wrapper.style.background = "url(../IMAGE/BackGroundRegister.jpg) center/cover no-repeat";
+    wrapper.style.background = "url(../IMAGE/BEAUTY-LANDSCAPE-LAKE-1192023.png) center/cover no-repeat";
     setTimeout(() => {
         formBoxLogin.style.display = "none";
         formBoxRegister.style.display = "flex";
+    }, 900);
 
-    }, 100);
 })
 
 
 
 loginLink.addEventListener('click', () => {
-    formBoxLogin.classList.add('leftToCenter');
-    formBoxRegister.classList.add('centerToRight')
+    formBoxLogin.classList.remove('centerToLeft');
+    formBoxRegister.classList.remove('rightToCenter')
+
     wrapper.classList.remove('active');
+    formBoxRegister.classList.add('centerToRight')
+    formBoxLogin.classList.add('leftToCenter');
+    
 
     // wrapper.classList.add('leftToCenter');
     // wrapper.classList.add('centerToRight')
@@ -36,8 +44,8 @@ loginLink.addEventListener('click', () => {
     wrapper.style.background = "url(../IMAGE/BackGroud_SignUp.jpg) center/cover no-repeat";
     setTimeout(() => {
         formBoxRegister.style.display = "none";
-        formBoxLogin.style.display = "flex";
-        
-    }, 100);
+        formBoxLogin.style.display = "flex";   
+    }, 900);
+
 
 })

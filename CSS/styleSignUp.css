@@ -18,30 +18,40 @@ body {
     min-height: 100vh;
     width: 100%;
     background: url(../IMAGE/BackGroud_SignUp.jpg) center/cover no-repeat;
+    animation: animebg 5s linear infinite;
 }
+@keyframes animebg{
+    100%{
+        filter: hue-rotate(320deg,black,gray,rgb(145, 10, 145));
+    }
+}
+
 
 .wrapper .form-box.login{
     transition: 0.5s;
 }
 
-.wrapper.active .form-box.login{
+/* .wrapper.active .form-box.login{
     transition: none;
-}
+} */
 
 .wrapper .form-box.register{
     display: none;
-    transition: none;
+    transition: 0.5;
     position: absolute;
 }
-.wrapper.active .form-box.register{
+/* .wrapper.active .form-box.register{
     transition: 0.5s;
-    
-}
+} */
 
 ion-icon{
     font-weight: 900;
 }
+.form-box.register{
+    
+}
 .wrapper .form-box{
+    overflow: hidden;
     border-radius: 10px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -51,6 +61,7 @@ ion-icon{
     justify-content: center;
     background-color: transparent;
     /* animation: spinner 1s linear ; */
+    backdrop-filter: blur(2px);
 }
 
 .wrapper .form-box::after {
@@ -58,7 +69,7 @@ ion-icon{
     content: "";
     width: 100px;
     height: 100px;
-    color: #000;
+    color: #f10202;
     z-index: 99;
 }
 
@@ -308,4 +319,110 @@ button:hover{
         transform: translateX(100%);
         opacity: 0;
     }
+}
+
+
+
+
+
+/* Animetion line around form */
+.form-box.login a span{
+    position: absolute;
+    display: block;
+}
+.form-box.login a span:nth-child(1){
+    border-radius: 15px;
+    top: 0;
+    left: -100%;
+    height: 5px;
+    width: 30%;
+    background: linear-gradient(90deg,transparent,rgb(255, 255, 255));
+    animation: line-animetop 20s linear infinite;
+    
+}
+
+@keyframes line-animetop{
+    0%{
+        left: -30%;
+    }
+    50%{
+        left:100%;
+    }
+    100%{
+        left:100%;
+    }
+}
+
+
+.form-box.login a span:nth-child(2){
+    border-radius: 15px;
+    top: -100%;
+    right: 0;
+    height: 30%;
+    width: 5px;
+    background: linear-gradient(180deg,transparent,rgb(255, 255, 255));
+    animation: line-animeright 15s linear infinite;
+    animation-delay: 6s;
+}
+
+@keyframes line-animeright{
+    0%{
+        top: -70%;
+    }
+    50%{
+        top:100%;
+    }
+    100%{
+        top:100%;
+    }
+}
+.form-box.login a span:nth-child(3){
+    border-radius: 15px;
+    bottom: 0;
+    right: -100%;
+    height: 5px;
+    width: 30%;
+    background: linear-gradient(270deg,transparent,rgb(255, 255, 255));
+    animation: line-animebottom 15s linear infinite;
+    animation-delay: 11s;
+}
+
+@keyframes line-animebottom{
+    0%{
+        right: -50%;
+    }
+    50%{
+        right:100%;
+    }
+    100%{
+        right:100%;
+    }
+}
+.form-box.login a span:nth-child(4){
+    border-radius: 15px;
+    left: 0;
+    bottom: -100%;
+    height: 30%;
+    width: 5px;
+    background: linear-gradient(360deg,transparent,rgb(255, 255, 255));
+    animation: line-animeleft 15s linear infinite;
+    animation-delay: 16s;
+}
+
+@keyframes line-animeleft{
+    0%{
+        bottom: -50%;
+    }
+    50%{
+        bottom:100%;
+    }
+    100%{
+        bottom:100%;
+    }
+}
+
+
+.form-box.register a span{
+    position: absolute;
+    display: block;
 }
