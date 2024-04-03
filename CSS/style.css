@@ -47,6 +47,11 @@ p {
 	margin-bottom:5px;
 	line-height:28px;
 }
+.ui-head img {
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
 a{
 	text-decoration: none;
 	color: #777;
