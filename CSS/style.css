@@ -90,6 +90,11 @@ body{
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
 }
+.movie-ticket .ui-item .ui-head{
+	background: url(../IMAGE/FILM_IMAGES/);
+	background-position: center;
+	background-size: cover;
+}
 .movie-ticket .ui-item .ui-head img.bg-img{
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
