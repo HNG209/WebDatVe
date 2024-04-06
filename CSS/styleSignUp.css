@@ -116,13 +116,14 @@ h1{
     right: 8px;
     top: 5px;
 }
+
 .forget{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .forget label{
-    accent-color: rgb(17, 16, 16);
+    accent-color: rgb(0, 0, 0);
 }
 .forget a{
     text-decoration: none;
@@ -152,7 +153,7 @@ h1{
 }
 .forget label {
     text-decoration: none;
-    color: #000;
+    color: #000000;
     font-weight: 700;
 }
 .forget div:hover a{
