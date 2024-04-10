@@ -1,0 +1,102 @@
+[
+    {
+        "name" : "Đền Mạng",
+        "year" : 2024,
+        "duration" : 93,
+        "description" : "Người cha quá cố đã phản bội lời thề khiến cho hồn ma Nang Rum nổi giận, quyết trả báo ứng lên người August bắt cầu đền mạng để chuộc tội . August sẽ tìm ra được lời thề để hóa giải lỗi lầm hay phải trả giá bằng tính mạng của bản thân?",
+        "director" : "Ekkachai Srivichai",
+        "actors" : "Ekkachai Srivichai, Ratchanok Suwanket, Siwat Chotchaicharin, Fabriccio Paulo, Sonthaya Chitmanee",
+        "released" : "22/03/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/3DenMang.jpg"
+    },
+    {
+        "name" : "Kung PU Panda 4",
+        "year" : 2024,
+        "duration" : 94,
+        "description" : "Sau khi Po được chọn trở thành Thủ lĩnh tinh thần của Thung lũng Bình Yên, Po cần tìm và huấn luyện một Chiến binh Rồng mới, trong khi đó một mụ phù thủy độc ác lên kế hoạch triệu hồi lại tất cả những kẻ phản diện mà Po đã đánh bại về cõi linh hồn.",
+        "director" : "Mike Mitchell",
+        "actors" : "Lucy Liu, David Cross, Seth Rogen, Jackie Chan, Angelina Jolie",
+        "released" : "08/03/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/2.Kung_Fu_Pandaposter.jpg"
+    },
+    {
+        "name" : "Muôn Vị Nhân Gian",
+        "year" : 2024,
+        "duration" : 135,
+        "description" : "Phim điện ảnh Muôn Vị Nhân Gian lấy bối cảnh tại một vùng quê nước Pháp năm 1885, xoay quanh mối tình lãng mạn giữa nữ đầu bếp Eugénie (Juliette Binoche) và Dodin (Benoît Magimel) - một chuyên gia ẩm thực với đam mê sáng tạo nên những món ăn trọn vẹn từ hương vị đến hình thức. Khởi nguồn từ tình yêu ẩm thực để cùng nhau tạo ra nhiều món ăn tinh tế và lộng lẫy trong suốt 20 năm, thu hút các thực khách từ khắp nơi trên thế giới đến thưởng thức, tình yêu đôi lứa dần nảy nở giữa Eugénie và Dodin. Tuy nhiên, Eugénie lại là một người phụ nữ yêu tự do và chưa sẵn sàng kết hôn với Dodin. Để chinh phục được trái tim của nàng, Dodin đã quyết định vào bếp, lần đầu tiên nấu ăn cho người mình yêu.",
+        "director" : "Trần Anh Hùng",
+        "actors" : "Juliette Binoche, Benoît Magimel",
+        "released" : "22/03/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/6MuonViNhanGian.jpg"
+    },
+    {
+        "name" : "Đào, Phở và Piano",
+        "year" : 2024,
+        "duration" : 100,
+        "description" : "Phim Đào, phở và piano của đạo diễn kiêm biên kịch Phi Tiến Sơn lấy cảm hứng từ cuộc chiến 60 ngày đêm vào cuối năm 1946, đầu năm 1947 của quân dân Hà Nội. Phim được nhà nước đầu tư kinh phí lên đến 20 tỷ đồng để tái hiện chân thật nhất một trong những mùa xuân lịch sử đầy cảm xúc của dân tộc. Lấy bối cảnh trận chiến đông xuân kéo dài 60 ngày đêm từ cuối năm 1946 đến đầu năm 1947 ở Hà Nội, câu chuyện theo chân chàng dân quân Văn Dân và chuyện tình với nàng tiểu thư đam mê dương cầm Thục Hương. Khi những người khác đã di tản lên chiến khu, họ quyết định cố thủ lại mảnh đất thủ đô đã tan hoang vì bom đạn, mặc cho những hiểm nguy đang chờ đợi trước mắt.",
+        "director" : "Phi Tiến Sơn",
+        "actors" : "Doãn Quốc Đam, Cao Thị Thuỳ Linh, Tuấn Hưng, Trần Lực, Cao Trung Hiếu",
+        "released" : "10/02/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/Dao,PhovàPiano.jpg"
+    },
+    {
+        "name" : "Quỷ Cái",
+        "year" : 2024,
+        "duration" : 90,
+        "description" : "Quỷ Cái là bộ phim kinh dị nặng đô từ đất nước Thái Lan. Được sự chỉ định của giáo sư, 5 sinh viên đại học năm cuối được mời đến dinh thự cổ thuộc sở hữu của dòng tộc danh giá ML.Salukjit. Trước khi quyết định ra đi hay ở lại, Ml.Salukjit đã khiến họ khiếp sợ trước sức mạnh ma quỷ của mình.",
+        "director" : "Artistaya Arriyawongsa, Theerakhaha Arriyawongsa",
+        "actors" : "Anchalee Saisoontorn, Jay Jatuporn Dangurai, Latkamon Pinrojkirati",
+        "released" : "05/04/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/QuyCai.jpg"
+    },
+    {
+        "name" : "Vong Nữ Đoạt Hồn",
+        "year" : 2024,
+        "duration" : 107,
+        "description" : "Lấy cảm hứng từ một trong những câu chuyện kinh dị đô thị ấn tượng của Philippines, truyện phim MARITA: VONG NỮ ĐOẠT HỒN theo chân nhóm sinh viên sân khấu kịch đầy nhiệt huyết và hào hứng chuẩn bị cho vở diễn mới nhất. Nhưng không may, hàng loạt sự cố và tai nạn liên tiếp xảy ra với các thành viên mà không rõ nguyên do. Và rồi, mọi manh mối đều dẫn về câu chuyện của nữ diễn viên xinh đẹp Marita - ngôi sao một thời của nhà hát. Từ nữ chính được săn đón lại bị “thất sủng” mất vai, oan hồn của Marita không buông tha cho bất cứ diễn viên nào muốn tỏa sáng bên trong thánh đường nghệ thuật của mình. Liệu những sóng gió Marita gây ra sẽ dừng lại, hay đây mới chỉ là khởi đầu cho những toan tính khủng khiếp hơn đang chờ đợi?",
+        "director" : "Roni S. Benaid",
+        "actors" : " Louise Delos Reyes, Rhen Escano, Ashtine Olviga",
+        "released" : "08/03/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/VongNuDoatHon.jpg"
+    },
+    {
+        "name" : "Sáng đèn",
+        "year" : 2024,
+        "duration" : 128,
+        "description" : "Câu chuyện trong Sáng Đèn có bối cảnh trải dài từ thập niên 1990 đến những năm 2000. Phim là hành trình nhiều thăng hoa nhưng cũng đầy biến cố của đoàn cải lương Viễn Phương với những người nghệ sĩ tài hoa. Từ một đoàn cải lương chính thống, để duy trì họ phải buộc chuyển mình, trở thành một đoàn tạp kỹ. Mặc dù phải vật lộn với hoàn cảnh khó khăn của đoàn hát nhưng tình yêu nghề, tình yêu đôi lứa vẫn luôn bỏng cháy. Số phận đoàn sẽ đi về đâu là một dấu hỏi lớn? Và tình yêu với cải lương có giúp họ vượt qua nghịch cảnh để tiếp tục đời “con tằm đến thác vẫn còn vương tơ.",
+        "director" : "Hoàng Tuấn Cường",
+        "actors" : "Hữu Châu, Chí Tâm, Bạch Công Khanh, Lê Phương, Cao Minh Đạt",
+        "released" : "22/03/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/7SangDen.webp"
+    },
+    {
+        "name" : "Dune.2: Hành Tinh Cát",
+        "year" : 2024,
+        "duration" : 166,
+        "description" : "Dune. 2: Hành Tinh Cát sẽ tiếp tục khám phá hành trình đậm chất thần thoại của Paul Atreides khi anh đồng hành cùng Chani và những người Fremen trên chặng đường trả thù những kẻ đã hủy hoại gia đình mình. Đối mặt với những lựa chọn giữa tình yêu của cuộc đời mình và số phận của vũ trụ, Paul phải ngăn chặn viễn cảnh tương lai tồi tệ chỉ mình anh nhìn thấy.",
+        "director" : "Denis Villeneuve",
+        "actors" : "Timothee Chalamet, Zendaya, Rebecca Ferguson, Javier Bardem, Florence Pugh",
+        "released" : "01/03/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/5HanhTinhCat.jpg"
+    },
+    {
+        "name" : "Exhuma: Quật Mộ Trùng Ma",
+        "year" : 2024,
+        "duration" : 133,
+        "description" : "Dưới đôi tay của Bậc thầy kinh dị Jang Jae Hyun - cha đẻ của \"Svaha: Ngón Tay Thứ Sáu\" và \"Mục Sư\", phim điện ảnh nổi bật nhất năm 2024 của Hàn Quốc hứa hẹn mang đến trải nghiệm mãn nhãn trên màn ảnh rộng tại Việt Nam vào tháng 3 này!",
+        "director" : "Jang Jae-hyun",
+        "actors" : "Md Rustam Ansari, Jeon Jin-gi, Lee Do-hyun, Yoo Hae-jin, Kim Go-Eun",
+        "released" : "15/03/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/Quat-Mo-Trung-Maposter.jpg"
+    },
+    {
+        "name" : "Kong x Godzilla: Đế Chế Mới",
+        "year" : 2024,
+        "duration" : 115,
+        "description" : "Kong và Godzilla - hai sinh vật vĩ đại huyền thoại, hai kẻ thủ truyền kiếp sẽ cùng bắt tay thực thi một sứ mệnh chung mang tính sống còn để bảo vệ nhân loại, và trận chiến gắn kết chúng với loài người mãi mãi sẽ bắt đầu.",
+        "director" : "Adam Wingard",
+        "actors" : "Dan Stevens, Rebecca Hall, Brian Tyree Henry, Kaylee Hottle, Fala Chen",
+        "released" : "29/03/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/GodzillaxKong.jpg"
+    }
+]

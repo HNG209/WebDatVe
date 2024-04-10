@@ -1,5 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 
+}
 @media screen and (min-width:777px){
     .nav-link {
       padding:18px 0;
@@ -12,6 +17,23 @@
   }
 .navbar{
   overflow: hidden;
+}
+#film-contain {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.movie-ticket {
+	width: 100%;
+	height: 100%;
+	flex: 0 0 auto;
+	margin: 10px;
+}
+.movie-ticket img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
 }
 .nav-item a{
   position: relative;
@@ -47,6 +69,12 @@ p {
 	margin-bottom:5px;
 	line-height:28px;
 }
+
+.ui-head .bg-img{
+	
+	height: 80vh;
+	border-radius: 10px;
+}
 a{
 	text-decoration: none;
 	color: #777;
@@ -76,8 +104,8 @@ body{
 }
 /* UI - X */
 .movie-ticket{
-	max-width: 650px;
-	margin: 60px auto;
+	max-width: 600px;
+	margin: 60px 0;
 }
 /* Head */
 .movie-ticket .ui-item .ui-head{
@@ -86,9 +114,10 @@ body{
 	border-top-right-radius:5px;
 }
 .movie-ticket .ui-item .ui-head{
+	object-fit: cover;
 	background: url(../IMAGE/FILM_IMAGES/);
 	background-position: center;
-	background-size: cover;
+	
 }
 .movie-ticket .ui-item .ui-head img.bg-img{
 	border-top-left-radius:5px;
