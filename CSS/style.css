@@ -15,6 +15,28 @@
       
     }
   }
+
+/* search */
+.search{
+	display: flex;
+}
+.search  a{
+	display: flex;
+}
+.search  a  img{
+	display: flex;
+	width: 50px;
+	position: relative;
+	left: 800px;
+}
+
+@media(max-width: 776px){
+	.search a img{
+		display: none;
+	}
+}
+/* end search */
+
 .navbar{
   overflow: hidden;
 }
