@@ -233,6 +233,7 @@ body{
 @media(max-width: 660px){
 	.movie-ticket .ui-trans .ui-details p{
 		color: #555;
+		
 	}
 }
 /* Small Headings */

@@ -20,7 +20,7 @@
           </a>
           <form class="d-flex mt-4">
             <input class="form-control me-2" type="search" placeholder="Tìm kiếm phim" aria-label="Search" id="input">
-            <button class="btn btn-outline-dark" id="search" type="submit">Tìm</button>
+            <button class="btn btn-outline-dark" id="search" type="submit"><img src="../IMAGE/Bootstrap-search-icon.png" alt="" style="width: 20px;"></button>
           </form>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,16 +73,19 @@
       
       <div id="film-contain" class="container">
         <div>
-          <div class="container mt-5 d-flex">
-            <select class="form-select w-50 mx-4" aria-label="Default select example" id="film-select">
+          <div class="container mt-5 d-flex justify-content-center">
+            <div class="icon-filter">
+              <img src="../IMAGE/filter-check-outline-icon.png" alt="">
+            </div>
+            <select class="form-select mx-4" aria-label="Default select example" id="film-select" style="width: 150px;">
               <option value="pnb">Phim nổi bật</option>
               <option value="psc">Phim sắp chiếu</option>
             </select>
-            <select class="form-select w-50 mx-4" aria-label="Default select example" id="year-select">
+            <select class="form-select  mx-4" aria-label="Default select example" id="year-select"style="width: 150px;">
               <option value="pnb">2023</option>
               <option value="psc">2024</option>
             </select>
-            <select class="form-select w-50 mx-4" aria-label="Default select example" id="film-select">
+            <select class="form-select  mx-4" aria-label="Default select example" id="film-select"style="width: 150px;">
               <option selected>Tất cả</option>
               <option value="pnb">Phim nổi bật</option>
               <option value="psc">Phim sắp chiếu</option>
