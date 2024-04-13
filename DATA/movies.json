@@ -8,7 +8,8 @@
         "actors" : "Ekkachai Srivichai, Ratchanok Suwanket, Siwat Chotchaicharin, Fabriccio Paulo, Sonthaya Chitmanee",
         "released" : "22/03/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/3DenMang.jpg",
-        "type" : "pnb"
+        "type" : "pnb",
+        "category": "kd"
     },
     {
         "name" : "Kung FU Panda 4",
@@ -19,7 +20,8 @@
         "actors" : "Lucy Liu, David Cross, Seth Rogen, Jackie Chan, Angelina Jolie",
         "released" : "08/03/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/2.Kung_Fu_Pandaposter.jpg",
-        "type" : "pnb"
+        "type" : "pnb",
+        "category": "da"
     },
     {
         "name" : "Muôn Vị Nhân Gian",
@@ -30,7 +32,8 @@
         "actors" : "Juliette Binoche, Benoît Magimel",
         "released" : "22/03/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/6MuonViNhanGian.jpg",
-        "type" : "pnb"
+        "type" : "pnb",
+        "category": "da"
     },
     {
         "name" : "Đào, Phở và Piano",
@@ -41,7 +44,8 @@
         "actors" : "Doãn Quốc Đam, Cao Thị Thuỳ Linh, Tuấn Hưng, Trần Lực, Cao Trung Hiếu",
         "released" : "10/02/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/Dao,PhovàPiano.jpg",
-        "type" : "pnb"
+        "type" : "pnb",
+        "category": "hd"
     },
     {
         "name" : "Quỷ Cái",
@@ -52,7 +56,8 @@
         "actors" : "Anchalee Saisoontorn, Jay Jatuporn Dangurai, Latkamon Pinrojkirati",
         "released" : "05/04/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/QuyCai.jpg",
-        "type" : "psc"
+        "type" : "pnb",
+        "category": "kd"
     },
     {
         "name" : "Vong Nữ Đoạt Hồn",
@@ -63,7 +68,8 @@
         "actors" : " Louise Delos Reyes, Rhen Escano, Ashtine Olviga",
         "released" : "08/03/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/VongNuDoatHon.jpg",
-        "type" : "psc"
+        "type" : "pnb",
+        "category": "kd"
     },
     {
         "name" : "Sáng đèn",
@@ -74,7 +80,8 @@
         "actors" : "Hữu Châu, Chí Tâm, Bạch Công Khanh, Lê Phương, Cao Minh Đạt",
         "released" : "22/03/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/7SangDen.webp",
-        "type" : "psc"
+        "type" : "pnb",
+        "category": "ls"
     },
     {
         "name" : "Dune.2: Hành Tinh Cát",
@@ -85,7 +92,8 @@
         "actors" : "Timothee Chalamet, Zendaya, Rebecca Ferguson, Javier Bardem, Florence Pugh",
         "released" : "01/03/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/5HanhTinhCat.jpg",
-        "type" : "pnb"
+        "type" : "pnb",
+        "category": "hd"
     },
     {
         "name" : "Exhuma: Quật Mộ Trùng Ma",
@@ -96,7 +104,8 @@
         "actors" : "Md Rustam Ansari, Jeon Jin-gi, Lee Do-hyun, Yoo Hae-jin, Kim Go-Eun",
         "released" : "15/03/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/Quat-Mo-Trung-Maposter.jpg",
-        "type" : "pnb"
+        "type" : "pnb",
+        "category": "kd"
     },
     {
         "name" : "Kong x Godzilla: Đế Chế Mới",
@@ -107,6 +116,127 @@
         "actors" : "Dan Stevens, Rebecca Hall, Brian Tyree Henry, Kaylee Hottle, Fala Chen",
         "released" : "29/03/2024",
         "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/GodzillaxKong.jpg",
-        "type" : "pnb"
-    }
+        "type" : "pnb",
+        "category": "da"
+    },
+    {
+        "name" : "Mùa hè của Luca",
+        "year" : 2024,
+        "duration" : 99,
+        "description" : "Mùa Hè Của Luca kể về chuyến hành trình của cậu bé Luca tại hòn đảo Portorosso thuộc vùng biển Địa Trung Hải ở Ý tuyệt đẹp. Ở đây cậu đã làm quen và kết thân với những người bạn nhỏ mới và tận hưởng mùa hè đầy nắng, kem Gelato và cả món mì Ý trứ danh. Tuy nhiên có một điều không ổn lắm, Luca là một THỦY QUÁI và những người dân trên hòn đảo này lại không thích điều này chút nào.",
+        "director" : "Enrico Casarosa",
+        "actors" : "Jacob Tremblay, Jack Dylan Grazer, Emma Berman, Maya Rudolph, Jim Gaffigan",
+        "released" : "19/04/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/2muaHecuaLuca.jpg",
+        "type" : "psc",
+        "category": "da"
+ },
+{
+        "name" : "Vây Hãm: Kẻ Trừng Phạt",
+        "year" : 2024,
+        "duration" : 109,
+        "description" : " Siêu cớm Ma Seok-do tái xuất để đối đầu với những tội phạm tinh vi trong giới công nghệ. Nắm đấm trứ danh liệu có phát huy được sức mạnh trước liên minh tội phạm của thiên tài công nghệ và ông trùm nhà cái lớn nhất châu Á?",
+        "director" : " Heo Myeong-haeng",
+        "actors" : " Ma Dong-seok, Kim Mu-yeol, Park Ji-hwan, Lee Dong-Hwi, Lee Joo-bin",
+        "released" : "26/04/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/VayHamKeTrungPhat.jpg",
+        "type" : "psc",
+        "category": "hd"
+ },
+{
+        "name" : " Lật Mặt 7: Một Điều Ước ",
+        "year" : 2024,
+        "duration" : 120,
+        "description" : " Một Điều Ước là bộ phim của Lý Hải, sẽ ra mắt dịp lễ 30/4. Kể câu chuyện về bà Nguyễn Thị Hai và năm người con, bộ phim xoáy vào một câu hỏi đầy nhức nhối trong xã hội hiện đại – khi cha mẹ già đi, liệu người con nào có trách nhiệm phụng dưỡng đây? Một bên là cuộc sống riêng, một bên là chữ hiếu, làm sao để cân bằng cả hai?",
+        "director" : " Lý Hải",
+        "actors" : " Đinh Y Nhung, Trương Minh Cường, Thanh Hiền, Quách Ngọc Tuyên, Trần Kim Hải",
+        "released" : "26/04/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/6LatMat.jpg",
+        "type" : "psc",
+        "category": "da"
+ },
+ {
+        "name" : " Kẻ Thế Thân ",
+        "year" : 2024,
+        "duration" : 130,
+        "description" : " Colt Seavers là một diễn viên đóng thế “lão làng. Bất ngờ, anh được mời làm “bản sao” cho một nhân vật nổi tiếng trong phim do người yêu cũ – Jody (Emily Blunt) đạo diễn. Mọi chuyện dần chệch hướng khi ngôi sao của bộ phim bỗng mất tích, không ai có thể liên lạc được. Để cứu lấy công việc và giành lại tình yêu của đời mình, Colt vướng vào âm mưu khó lường khi cố gắng đi tìm diễn viên đó",
+        "director" : " David Leitch",
+        "actors" : " Lee Majors, Teresa Palmer, Stephanie Hsu, Hannah Waddingham, Aaron Taylor-Johnson",
+        "released" : "03/05/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/8KeTheThan.jpg",
+        "type" : "psc",
+        "category": "da"
+ },
+ {
+        "name" : " Những Tế Bào của Yumi ",
+        "year" : 2024,
+        "duration" : 93,
+        "description" : " Cô nàng nhân viên văn phòng Yumi đã bước sang độ tuổi 30, với biết bao chông chênh về cuộc đời, về công việc và tình yêu... Nhưng đừng lo lắng nhé Yumi, cho dù có cô đơn, bất an, hoài nghi bản thân đến đâu, bạn vẫn là ưu tiên số 1 của các tế bào trong bạn.",
+        "director" : " Kim Da-hee",
+        "actors" : " Yoon Ah Young, Shin Beom-sik, Song Ha-rim, Ahn So-yi, Sa Moon-young",
+        "released" : "10/05/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/9NhungTeBao.jpg",
+        "type" : "psc",
+        "category": "da"
+},
+{
+        "name" : " Abigail ",
+        "year" : 2024,
+        "duration" : 100,
+        "description" : " Chuyện gì sẽ xảy ra khi bắt cóc một bé gái ma cà rồng, tất cả sẽ diễn ra trong bộ phim Abigail.",
+        "director" : " Tyler Gillett, Matt Bettinelli-Olpin",
+        "actors" : " Giancarlo Esposito, Kevin Durand, William Catlett, Kathryn Newton, Angus Cloud",
+        "released" : "19/04/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/1Abigail.jpg",
+        "type" : "psc",
+        "category": "hd"
+},
+{
+        "name" : "Tu Viện Máu ",
+        "year" : 2024,
+        "duration" : 85,
+        "description" : " Cecilia được giao một vai trò mới tại một tu viện lừng danh vùng nông thôn Ý. Nhưng Cecilia nhận ra rằng ngôi nhà mới của cô ẩn chứa những bí mật đen tối và kinh hoàng.",
+        "director" : " Michael Mohan",
+        "actors" : " Sydney Sweeney, Álvaro Morte, Benedetta Porcaroli, Dora Romano, Giorgio Colangeli",
+        "released" : "19/04/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/3TuVienMau.jpg",
+        "type" : "psc",
+        "category": "kd"
+},
+{
+        "name" : "Ozi: Voice of the Forest ",
+        "year" : 2024,
+        "duration" : 110,
+        "description" : " Đây là câu chuyện về Ozi, một chú đười ươi mồ côi sử dụng kỹ năng gây ảnh hưởng của mình để cứu khu rừng và ngôi nhà của mình khỏi nạn phá rừng.",
+        "director" : " Tim Harper",
+        "actors" : " Josh Whitehouse, Kemah Bob, Rachel Shenton, Marissa Anita, RuPaul",
+        "released" : "26/04/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/5Ozi.jpg",
+        "type" : "psc",
+        "category": "da"
+},
+{
+        "name" : " TÀ KHÚC TRIỆU VONG ",
+        "year" : 2024,
+        "duration" : 90,
+        "description" : "TÀ KHÚC TRIỆU VONG kể về một nữ diễn viên có khả năng thực hiện nghi thức cấm để triệu hồi quỷ dữ.",
+        "director" : " Han Dong-seok",
+        "actors" : " Kim Yoon-hye, Song Yi-jae, Park Ji Hoon, Lee Sang-ah",
+        "released" : "26/04/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/7TaKhucTrieuVong.png",
+        "type" : "psc",
+        "category": "kd"
+},
+{
+        "name" : "Tarot",
+        "year" : 2024,
+        "duration" : 85,
+        "description" : "Số phận được định đoạt bởi những lá bài.",
+        "director" : " Anna Halberg, Spenser Cohen",
+        "actors" : " James Swanton, Joss Carter, Alan Wells, Sunčica Milanović, Saša Nikolić",
+        "released" : "10/05/2024",
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimsapchieu/10Tarot.jpg",
+        "type" : "psc",
+        "category": "hd"
+}
 ]

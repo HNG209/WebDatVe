@@ -15,10 +15,11 @@
     <div class="container-fluid p-0 bg-dark">
       <nav class="navbar navbar-expand-md navbar-dark bg-secondary" style="display: flex; justify-self: start;">
         <div class="container" style="display: flex; justify-content: start;">
-          <a class="navbar-brand d-md-none d-xs-block py-3" href="../HTML/Signup.html">
-            <img class="user" src="../IMAGE/logo.png" height="100" alt="Company ok">
+          <a class="navbar-brand d-md-none d-xs-block py-3 px-2" href="../HTML/Signup.html">
+            <!-- <img class="user" src="../IMAGE/logo.png" height="100" alt="Company ok"> -->
+            <h1>Logo</h1>
           </a>
-          <form class="d-flex mt-4">
+          <form class="d-flex px-2">
             <input class="form-control me-2" type="search" placeholder="Tìm kiếm phim" aria-label="Search" id="input">
             <button class="btn btn-outline-dark" id="search" type="submit"><img src="../IMAGE/Bootstrap-search-icon.png" alt="" style="width: 20px;"></button>
           </form>
@@ -32,7 +33,8 @@
               <li class="nav-item">
                 <div class="text-center p-3 d-none d-md-block">
                   <a href="index.html">
-                    <img src="../IMAGE/logo.png" height="100" alt="Company Logo">
+                    <!-- <img src="../IMAGE/logo.png" height="100" alt="Company Logo"> -->
+                    <h1 class="mb-4">Logo</h1>
                   </a>
                 </div>
               </li>
@@ -77,18 +79,24 @@
             <div class="icon-filter">
               <img src="../IMAGE/filter-check-outline-icon.png" alt="">
             </div>
+            <label for="film-select" class="form-label text-light mt-2 ms-3">Phim:</label>
             <select class="form-select mx-4" aria-label="Default select example" id="film-select" style="width: 150px;">
+              <option value="all">Tất cả phim</option>
               <option value="pnb">Phim nổi bật</option>
               <option value="psc">Phim sắp chiếu</option>
             </select>
+            <label for="year-select" class="form-label text-light mt-2">Năm:</label>
             <select class="form-select  mx-4" aria-label="Default select example" id="year-select"style="width: 150px;">
-              <option value="pnb">2023</option>
-              <option value="psc">2024</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
             </select>
-            <select class="form-select  mx-4" aria-label="Default select example" id="film-select"style="width: 150px;">
-              <option selected>Tất cả</option>
-              <option value="pnb">Phim nổi bật</option>
-              <option value="psc">Phim sắp chiếu</option>
+            <label for="cate-select" class="form-label text-light mt-2">Thể loại:</label>
+            <select class="form-select  mx-4" aria-label="Default select example" id="cate-select"style="width: 150px;">
+              <option value="hd">Hành động</option>
+              <option value="da">Điện ảnh</option>
+              <option value="kd">Kinh dị</option>
+              <option value="vn">Vui nhộn</option>
+              <option value="ls">Lịch sử</option>
             </select>
           </div>
           <div id="phimnb" class="container-fluid">
