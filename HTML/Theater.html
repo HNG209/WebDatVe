@@ -9,23 +9,23 @@
     <script src="../bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
 
-      <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
-        <div class="container-fluid">
-          <a class="navbar-brand d-md-none d-xs-block py-3" href="index.html">
+      <nav class="navbar navbar-expand-md navbar-dark bg-secondary" style="display: flex; justify-self: start;">
+        <div class="container" style="display: flex; justify-content: start;">
+          <a class="navbar-brand d-md-none d-xs-block py-3" href="../HTML/Signup.html">
             <img class="user" src="../IMAGE/logo.png" height="100" alt="Company ok">
           </a>
-          <div class="container-fluid d-md-none w-50 d-flex justify-content-end">
-            <a class="navbar-brand d-xs-block py-3" href="index.html">
-              <img class="user" src="../IMAGE/user.png" height="30" alt="Company ok">
-            </a>
-          </div>
+          <form class="d-flex mt-4">
+            <input class="form-control me-2" type="search" placeholder="Tìm kiếm phim" aria-label="Search">
+            <button class="btn btn-outline-dark" id="search" type="submit">Tìm</button>
+          </form>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          </button> 
+                      
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto align-items-center">
               <li class="nav-item">
                 <div class="text-center p-3 d-none d-md-block">
@@ -69,7 +69,7 @@
         </div>
       </nav>
           
-        <div id="content" style="height: 800px; background-color: aquamarine;">
+        <div class="container-fluid">
             <section>
                 Rạp
             </section>

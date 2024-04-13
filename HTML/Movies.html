@@ -9,28 +9,25 @@
     <script src="../JS/jquery-3.6.0.min.js"></script>
     <script src="../bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="../JS/parseMovies.js"></script>
+    <script src="../JS/search.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
-        <div class="container-fluid">
-          <a class="navbar-brand d-md-none d-xs-block py-3" href="index.html">
+    <div class="container-fluid p-0 bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark bg-secondary" style="display: flex; justify-self: start;">
+        <div class="container" style="display: flex; justify-content: start;">
+          <a class="navbar-brand d-md-none d-xs-block py-3" href="../HTML/Signup.html">
             <img class="user" src="../IMAGE/logo.png" height="100" alt="Company ok">
           </a>
-
-          <form action="">
-            <div class="search-form">
-              <span id="search">
-                <img src="../IMAGE/find.png" height="40" alt="">
-              </span>
-              <input type="text" placeholder="Nhập tên phim" style="border-radius: 20px; width: 60%;">
-            </div>
+          <form class="d-flex mt-4">
+            <input class="form-control me-2" type="search" placeholder="Tìm kiếm phim" aria-label="Search" id="input">
+            <button class="btn btn-outline-dark" id="search" type="submit">Tìm</button>
           </form>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          </button> 
+                      
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto align-items-center">
               <li class="nav-item">
                 <div class="text-center p-3 d-none d-md-block">
@@ -75,11 +72,29 @@
       </nav>
       
       <div id="film-contain" class="container">
-        
+        <div>
+          <div class="container mt-5 d-flex">
+            <select class="form-select w-50 mx-4" aria-label="Default select example" id="film-select">
+              <option value="pnb">Phim nổi bật</option>
+              <option value="psc">Phim sắp chiếu</option>
+            </select>
+            <select class="form-select w-50 mx-4" aria-label="Default select example" id="year-select">
+              <option value="pnb">2023</option>
+              <option value="psc">2024</option>
+            </select>
+            <select class="form-select w-50 mx-4" aria-label="Default select example" id="film-select">
+              <option selected>Tất cả</option>
+              <option value="pnb">Phim nổi bật</option>
+              <option value="psc">Phim sắp chiếu</option>
+            </select>
+          </div>
+          <div id="phimnb" class="container-fluid">
+          </div>
+        </div>
       </div>
       <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
     <!-- Section: Social media -->
-    <section
+      <section
              class="d-flex justify-content-between p-4"
              style="background-color: #6351ce"
              >

@@ -7,17 +7,19 @@
         "director" : "Ekkachai Srivichai",
         "actors" : "Ekkachai Srivichai, Ratchanok Suwanket, Siwat Chotchaicharin, Fabriccio Paulo, Sonthaya Chitmanee",
         "released" : "22/03/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/3DenMang.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/3DenMang.jpg",
+        "type" : "pnb"
     },
     {
-        "name" : "Kung PU Panda 4",
+        "name" : "Kung FU Panda 4",
         "year" : 2024,
         "duration" : 94,
         "description" : "Sau khi Po được chọn trở thành Thủ lĩnh tinh thần của Thung lũng Bình Yên, Po cần tìm và huấn luyện một Chiến binh Rồng mới, trong khi đó một mụ phù thủy độc ác lên kế hoạch triệu hồi lại tất cả những kẻ phản diện mà Po đã đánh bại về cõi linh hồn.",
         "director" : "Mike Mitchell",
         "actors" : "Lucy Liu, David Cross, Seth Rogen, Jackie Chan, Angelina Jolie",
         "released" : "08/03/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/2.Kung_Fu_Pandaposter.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/2.Kung_Fu_Pandaposter.jpg",
+        "type" : "pnb"
     },
     {
         "name" : "Muôn Vị Nhân Gian",
@@ -27,7 +29,8 @@
         "director" : "Trần Anh Hùng",
         "actors" : "Juliette Binoche, Benoît Magimel",
         "released" : "22/03/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/6MuonViNhanGian.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/6MuonViNhanGian.jpg",
+        "type" : "pnb"
     },
     {
         "name" : "Đào, Phở và Piano",
@@ -37,7 +40,8 @@
         "director" : "Phi Tiến Sơn",
         "actors" : "Doãn Quốc Đam, Cao Thị Thuỳ Linh, Tuấn Hưng, Trần Lực, Cao Trung Hiếu",
         "released" : "10/02/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/Dao,PhovàPiano.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/Dao,PhovàPiano.jpg",
+        "type" : "pnb"
     },
     {
         "name" : "Quỷ Cái",
@@ -47,7 +51,8 @@
         "director" : "Artistaya Arriyawongsa, Theerakhaha Arriyawongsa",
         "actors" : "Anchalee Saisoontorn, Jay Jatuporn Dangurai, Latkamon Pinrojkirati",
         "released" : "05/04/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/QuyCai.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/QuyCai.jpg",
+        "type" : "psc"
     },
     {
         "name" : "Vong Nữ Đoạt Hồn",
@@ -57,7 +62,8 @@
         "director" : "Roni S. Benaid",
         "actors" : " Louise Delos Reyes, Rhen Escano, Ashtine Olviga",
         "released" : "08/03/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/VongNuDoatHon.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/VongNuDoatHon.jpg",
+        "type" : "psc"
     },
     {
         "name" : "Sáng đèn",
@@ -67,7 +73,8 @@
         "director" : "Hoàng Tuấn Cường",
         "actors" : "Hữu Châu, Chí Tâm, Bạch Công Khanh, Lê Phương, Cao Minh Đạt",
         "released" : "22/03/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/7SangDen.webp"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/7SangDen.webp",
+        "type" : "psc"
     },
     {
         "name" : "Dune.2: Hành Tinh Cát",
@@ -77,7 +84,8 @@
         "director" : "Denis Villeneuve",
         "actors" : "Timothee Chalamet, Zendaya, Rebecca Ferguson, Javier Bardem, Florence Pugh",
         "released" : "01/03/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/5HanhTinhCat.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/5HanhTinhCat.jpg",
+        "type" : "pnb"
     },
     {
         "name" : "Exhuma: Quật Mộ Trùng Ma",
@@ -87,7 +95,8 @@
         "director" : "Jang Jae-hyun",
         "actors" : "Md Rustam Ansari, Jeon Jin-gi, Lee Do-hyun, Yoo Hae-jin, Kim Go-Eun",
         "released" : "15/03/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/Quat-Mo-Trung-Maposter.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/Quat-Mo-Trung-Maposter.jpg",
+        "type" : "pnb"
     },
     {
         "name" : "Kong x Godzilla: Đế Chế Mới",
@@ -97,6 +106,7 @@
         "director" : "Adam Wingard",
         "actors" : "Dan Stevens, Rebecca Hall, Brian Tyree Henry, Kaylee Hottle, Fala Chen",
         "released" : "29/03/2024",
-        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/GodzillaxKong.jpg"
+        "imgPath" : "../IMAGE/FILM_IMAGES/phimtieubieu/GodzillaxKong.jpg",
+        "type" : "pnb"
     }
 ]

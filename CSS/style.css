@@ -45,6 +45,11 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+#phimnb {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
 .movie-ticket {
 	width: 100%;
