@@ -3,7 +3,7 @@ $(document).ready(function(){
     function displayFilm(type, year, category){
       var count = 0;
       for(let i of data){
-        if(type == "all" || (i.type == type && i.year == year && i.category == category)){
+        if(type == "all" || (i.type == type && (i.year == year || !$("#year-check").is(":checked")) && (i.category == category || !$("#cate-check").is(":checked")))){
           count++;
           $("#phimnb").append($("<div class=\"movie-ticket\">")
                               .append($("<div class=\"container-fluid\">")
@@ -105,6 +105,20 @@ $(document).ready(function(){
       var type = $("#film-select").val();
       var year = $("#year-select").val();
       var category = $(this).val();
+      displayFilm(type, year, category);
+    })
+    $("#year-check").change(function(){
+      $("#phimnb").empty();
+      var type = $("#film-select").val();
+      var year = $("#year-select").val();
+      var category = $("#cate-select").val();
+      displayFilm(type, year, category);
+    })
+    $("#cate-check").change(function(){
+      $("#phimnb").empty();
+      var type = $("#film-select").val();
+      var year = $("#year-select").val();
+      var category = $("#cate-select").val();
       displayFilm(type, year, category);
     })
 })
