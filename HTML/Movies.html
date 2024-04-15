@@ -20,36 +20,42 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-secondary" style="display: flex; justify-self: start;" id="web-navbar">
       <!-- load from navbar.html -->
     </nav>
-
-    <div id="film-contain" class="container">
-      <div>
-        <div class="container mt-5 d-flex justify-content-center align-items-center">
-          <div class="icon-filter">
-            <img src="../IMAGE/filter-check-outline-icon.png" alt="">
+    <div class="container-fluid">
+      <div id="film-contain" class="container-fluid">
+        <div>
+          <div class="container mt-5 d-flex justify-content-center align-items-center">
+            <div class="icon-filter">
+              <img src="../IMAGE/filter-check-outline-icon.png" alt="">
+            </div>
+            <label for="film-select" class="form-label text-light mt-2 ms-3">Phim:</label>
+            <select class="form-select mx-4" aria-label="Default select example" id="film-select" style="width: 150px;">
+              <option value="all">Tất cả phim</option>
+              <option value="pnb">Phim nổi bật</option>
+              <option value="psc">Phim sắp chiếu</option>
+            </select>
+            <input class="form-check-input me-2" type="checkbox" id="year-check">
+            <label for="year-select" class="form-label text-light mt-2">Năm:</label>
+            <select class="form-select  mx-4" aria-label="Default select example" id="year-select" style="width: 150px;">
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+            </select>
+            <input class="form-check-input me-2" type="checkbox" id="cate-check">
+            <label for="cate-select" class="form-label text-light mt-2">Thể loại:</label>
+            <select class="form-select  mx-4" aria-label="Default select example" id="cate-select" style="width: 150px;">
+              <option value="hd">Hành động</option>
+              <option value="da">Điện ảnh</option>
+              <option value="kd">Kinh dị</option>
+              <option value="vn">Vui nhộn</option>
+              <option value="ls">Lịch sử</option>
+            </select>
+            <form class="d-flex px-2">
+              <input class="form-control me-2" type="search" placeholder="Tìm kiếm phim" aria-label="Search" id="input">
+              <button class="btn btn-warning" id="search" type="submit"><img src="../IMAGE/Bootstrap-search-icon.png"
+                  alt="" style="width: 20px;"></button>
+            </form>
           </div>
-          <label for="film-select" class="form-label text-light mt-2 ms-3">Phim:</label>
-          <select class="form-select mx-4" aria-label="Default select example" id="film-select" style="width: 150px;">
-            <option value="all">Tất cả phim</option>
-            <option value="pnb">Phim nổi bật</option>
-            <option value="psc">Phim sắp chiếu</option>
-          </select>
-          <input class="form-check-input me-2" type="checkbox" value="" id="year-check">
-          <label for="year-select" class="form-label text-light mt-2">Năm:</label>
-          <select class="form-select  mx-4" aria-label="Default select example" id="year-select" style="width: 150px;">
-            <option value="2024">2024</option>
-            <option value="2023">2023</option>
-          </select>
-          <input class="form-check-input me-2" type="checkbox" value="" id="cate-check">
-          <label for="cate-select" class="form-label text-light mt-2">Thể loại:</label>
-          <select class="form-select  mx-4" aria-label="Default select example" id="cate-select" style="width: 150px;">
-            <option value="hd">Hành động</option>
-            <option value="da">Điện ảnh</option>
-            <option value="kd">Kinh dị</option>
-            <option value="vn">Vui nhộn</option>
-            <option value="ls">Lịch sử</option>
-          </select>
-        </div>
-        <div id="phimnb" class="container-fluid">
+          <div id="phimnb" class="container-fluid">
+          </div>
         </div>
       </div>
     </div>
