@@ -52,7 +52,7 @@ $(document).ready(function () {
                             alert('Bạn chưa chọn rạp!');
                         }
                         else {
-                            $("#theater-info").append($("<h1 class=\"text-light\">").text("ok"));
+                            $("#theater-info").load('rapData.html');
                         }
                     })
                 }
