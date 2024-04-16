@@ -350,3 +350,16 @@ body{
 .col-xs-4:nth-child(2n+2) { 
   background: black; 
 } 
+
+
+.navbar .submenu{
+	display: none;
+	position: fixed;
+}
+.navbar :hover .submenu{
+	display: flex;
+	position: fixed;
+}
+.navbar .submenu a{
+	padding: 2px;
+}
