@@ -112,7 +112,7 @@
                   </div>
                 </div>
                 <div class="modal-footer d-flex">
-                  <button type="button" class="btn btn-dark" data-bs-toggle="modalIdRegister">Register</button>
+                  <button type="button" class="btn btn-dark" data-bs-dismiss="#modalId" data-bs-target="#modalIdRegister">Register</button>
                   <button type="button" class="btn btn-primary">Login</button>
                 </div>
               </div>
@@ -121,7 +121,7 @@
           <!-- Modal trigger button -->
           <!-- Modal Body -->
           <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-          <div class="modal fade" id="modalIdRegister" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+            <div class="modal fade" id="modalIdRegister" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
             role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
               <div class="modal-content">
@@ -141,6 +141,7 @@
               </div>
             </div>
           </div>
+         
 
           <!-- Optional: Place to the bottom of scripts -->
           <script>
@@ -148,16 +149,28 @@
               document.getElementById("modalId"),
               options,
             );
+            const myModal2 = new bootstrap.Modal(
+              document.getElementById("modalIdRegister"),
+              options,
+            );
           </script>
 
           <script>
             var modalId = document.getElementById('modalId');
-
+            var modalIdRegister = document.getElementById('modalIdRegister')
             modalId.addEventListener('show.bs.modal', function (event) {
               // Button that triggered the modal
               let button = event.relatedTarget;
               // Extract info from data-bs-* attributes
               let recipient = button.getAttribute('data-bs-whatever');
+
+              // Use above variables to manipulate the DOM
+            });
+            modalIdRegister.addEventListener('show.bs.modal', function (event) {
+              // Button that triggered the modal
+              let button1 = event.relatedTarget;
+              // Extract info from data-bs-* attributes
+              let recipient1 = button1.getAttribute('data-bs-whatever');
 
               // Use above variables to manipulate the DOM
             });
@@ -168,6 +181,7 @@
     </div>
   </div>
   <div class="container-fluid" id="theater-info">
+
 
   </div>
   <script src="../JS/parseTheater.js"></script>
