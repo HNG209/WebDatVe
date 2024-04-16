@@ -1,21 +1,22 @@
-<div class="container" style="display: flex; justify-content: start;">
+<div class="container-fluid" style="display: flex; flex-direction: column;z-index: 1000;">
+  <div class="container" style="display: flex; justify-content: start;">
     <a class="navbar-brand d-md-none d-xs-block py-3 px-2" href="../HTML/Signup.html">
       <!-- <img class="user" src="../IMAGE/logo.png" height="100" alt="Company ok"> -->
-      <h1 class="text-warning">Logo</h1>
+      <h1 class="text-warning">SayPhim</h1>
     </a>
-
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse " id="navbarNavDropdown">
-      <ul class="navbar-nav mx-auto align-items-center">
-        <li class="nav-item">
-          <div class="text-center p-3 d-none d-md-block">
-            <a href="index.html">
-              <!-- <img src="../IMAGE/logo.png" height="100" alt="Company Logo"> -->
-              <h1 class="mb-4 text-warning">Logo</h1>
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+    <ul class="navbar-nav mx-auto align-items-center">
+      <li class="nav-item">
+        <div class="text-center p-3 d-none d-md-block">
+          <a href="index.html">
+            <!-- <img src="../IMAGE/logo.png" height="100" alt="Company Logo"> -->
+            <h1 class="mb-4 text-warning">SayPhim</h1>
             </a>
           </div>
         </li>
@@ -38,10 +39,17 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2 text-center" href="Movies.html" id="theater-click">
-            <img src="../IMAGE/theater.png" height="40" alt="">
-            <p>Rạp</p>
-          </a>
+          <div class="drop-down" data-bs-toggle="dropdown">
+            <a class="nav-link mx-2 text-center" id="theater-link" aria-expanded="false">
+              <img src="../IMAGE/theater.png" height="40" alt="">
+              <p>Rạp</p>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="theater-link">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link mx-2 text-center" href="../HTML/Signup.html">
@@ -52,3 +60,4 @@
       </ul>
     </div>
   </div>
+</div>
