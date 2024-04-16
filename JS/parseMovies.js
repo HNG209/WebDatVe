@@ -109,6 +109,12 @@ $(document).ready(function(){
     })
     $("#year-check").change(function(){
       $("#phimnb").empty();
+      var check = $(this).is(":checked");
+      if(check)
+        $("#year-select").prop('disabled', false);
+      else
+        $("#year-select").prop('disabled', true);
+
       var type = $("#film-select").val();
       var year = $("#year-select").val();
       var category = $("#cate-select").val();
@@ -116,9 +122,19 @@ $(document).ready(function(){
     })
     $("#cate-check").change(function(){
       $("#phimnb").empty();
+      var check = $(this).is(":checked");
+      if(check)
+        $("#cate-select").prop('disabled', false);
+      else
+        $("#cate-select").prop('disabled', true);
+
       var type = $("#film-select").val();
       var year = $("#year-select").val();
       var category = $("#cate-select").val();
       displayFilm(type, year, category);
+    })
+    $("#input").on("focusin", function(){
+      $("#cate-select").prop("checked", false);
+      $("#year-select").prop("checked", false);
     })
 })
