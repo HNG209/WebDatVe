@@ -1,49 +1,49 @@
 [
     {
-        "_id": 1,
+        "_id": "rap1",
         "name": "Bombay-Noir",
         "Diachi": "The Pearl Hội An, An Bàng, Cẩm An,TP. Hội An, T. Quảng Nam, Việt Nam",
         "path": "../IMAGE/THEATER_IMAGES/Bombay-Noir.jpg"
     },
     {
-        "_id": 2,
+        "_id": "rap2",
         "name": "Centerstage-cinema",
         "Diachi": "phố Lý Bôn, P.Đề Thám, TP.Thái Bình, T.Thái Bình, Việt Nam",
         "path": "../IMAGE/THEATER_IMAGES/Centerstage-cinema.jpg"
     },
     {
-        "_id": 3,
+        "_id": "rap3",
         "name": "CGV",
         "Diachi": "số 260, đường Quang Trung, tổ 35, P.Phan Thiết, TP.Tuyên Quang, T.Tuyên Quang, Việt Nam",
         "path": "../IMAGE/THEATER_IMAGES/CGV.jpg"
 
     },
     {
-        "_id": 4,
+        "_id": "rap4",
         "name": "Cinestar",
         "Diachi": "đường Trần Hưng Đạo, P.2, TP. Sóc Trăng, Tỉnh Sóc Trăng",
         "path": "../IMAGE/THEATER_IMAGES/Cinestar.jpg"
     },
     {
-        "_id": 5,
+        "_id": "rap5",
         "name": "DigitalCinema",
         "Diachi": "561A Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM",
         "path": "../IMAGE/THEATER_IMAGES/DigitalCinema.jpg"
     },
     {
-        "_id": 6,
+        "_id": "rap6",
         "name": "Galaxy",
         "Diachi": "Số 54A Nguyễn Chí Thanh, Phường Láng Thượng, Quận Đống Đa, Hà Nội",
         "path": "../IMAGE/THEATER_IMAGES/Galaxy.jpg"
     },
     {
-        "_id": 7,
+        "_id": "rap7",
         "name": "Galaxy-cinemas",
         "Diachi": "234 Phạm Văn Đồng, Bắc Từ Liêm, Cổ Nhuế, Từ Liêm, Hà Nội",
         "path": "../IMAGE/THEATER_IMAGES/Galaxy-cinemas.jpg"
     },
     {
-        "_id": 8,
+        "_id": "rap8",
         "name": "LoteCinema",
         "Diachi": "Vincom Plaza Imperia Hải Phòng, Khu đô thị Vinhomes Imperia Hải Phòng, Phường Thượng Lý, Quận Hồng Bàng, Thành phố Hải Phòng",
         "path": "../IMAGE/THEATER_IMAGES/LoteCinema.jpg"

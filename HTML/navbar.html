@@ -1,56 +1,83 @@
-<div class="container-fluid" style="display: flex; flex-direction: column;z-index: 1000;">
-  <div class="container" style="display: flex; justify-content: start;">
+<div class="container-fluid p-0" style="display: flex; flex-direction: column;">
+  <div class="container-fluid d-flex bg-black p-0">
+    <div class="p-3 d-none d-md-block w-50">
+      <a href="index.html">
+        <!-- <img src="../IMAGE/logo.png" height="100" alt="Company Logo"> -->
+        <h1 class="mb-4 text-warning">SayPhim</h1>
+      </a>
+    </div>
+    <div class="container-fluid d-flex justify-content-end align-items-center w-50">
+      <form class="d-flex px-2">
+        <input class="form-control me-2" type="search" placeholder="Tìm kiếm phim" aria-label="Search" id="input">
+        <button class="btn btn-warning" id="search" type="submit"><img src="../IMAGE/Bootstrap-search-icon.png" alt=""
+            style="width: 20px;"></button>
+      </form>
+    </div>
+  </div>
+  <div class="container-fluid bg-light" style="display: flex; justify-content: start;">
     <a class="navbar-brand d-md-none d-xs-block py-3 px-2" href="../HTML/Signup.html">
       <!-- <img class="user" src="../IMAGE/logo.png" height="100" alt="Company ok"> -->
       <h1 class="text-warning">SayPhim</h1>
     </a>
-    
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse " id="navbarNavDropdown">
-    <ul class="navbar-nav mx-auto align-items-center">
-      <li class="nav-item">
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto align-items-center">
+        <!-- <li class="nav-item">
         <div class="text-center p-3 d-none d-md-block">
           <a href="index.html">
-            <!-- <img src="../IMAGE/logo.png" height="100" alt="Company Logo"> -->
             <h1 class="mb-4 text-warning">SayPhim</h1>
             </a>
           </div>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link mx-2 active text-center" aria-current="page" href="index.html">
             <img src="../IMAGE/home.png" height="40" alt="">
-            <p>Home</p>
+            <p class="text-black">Home</p>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link mx-2 text-center" href="Movies.html">
             <img src="../IMAGE/film.png" height="40" alt="">
-            <p>Phim</p>
+            <p class="text-black">Phim</p>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link mx-2 text-center" href="Schedule.html">
             <img src="../IMAGE/schedule.png" height="40" alt="">
-            <p>Lịch</p>
+            <p class="text-black">Lịch</p>
           </a>
         </li>
-        <li class="nav-item">
-          <div class="drop-down" data-bs-toggle="dropdown">
-            <a class="nav-link mx-2 text-center" id="theater-link" aria-expanded="false">
-              <img src="../IMAGE/theater.png" height="40" alt="">
-              <p>Rạp</p>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="theater-link">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+        <li class="nav-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <a class="nav-link mx-2 text-center" href="#">
+            <img src="../IMAGE/theater.png" height="40" alt="">
+            <p class="text-black">Rạp</p>
+          </a>
         </li>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Danh sách các rạp</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <label for="exampleSelect" class="form-label">Chọn rạp</label>
+                <select class="form-select" id="theater-select" aria-label="Select example">
+                  <!-- load from theaters.json -->
+                </select>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="theaters-btn">Chọn</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <li class="nav-item">
           <a class="nav-link mx-2 text-center" href="../HTML/Signup.html">
             <img src="../IMAGE/user.png" height="40" alt="">
@@ -60,4 +87,9 @@
       </ul>
     </div>
   </div>
+  <div class="container-fluid" id="theater-info">
+
+  </div>
+  <script src="../JS/parseTheater.js"></script>
+  <script src="../JS/search.js"></script>
 </div>

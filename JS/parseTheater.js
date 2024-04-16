@@ -1,17 +1,23 @@
-$(document).ready(function(){
-    $.getJSON('../DATA/theaters.json', function(theatersData) {
-        theaters = theatersData;
-          for(let i of theaters){
-            $("#movie-theaters").append($("<div class=\"card m-5\" style=\"width: 18rem;\">")
-                                .append($("<img src=\"" + i.path + "\" class=\"card-img-top\">"),
-                                        $("<div class=\"card-body\">")
-                                .append($("<h5 class=\"card-title\">").text(i.name),
-                                        $("<p class=\"card-text\">").text(i.Diachi),
-                                        $("<div class=\"text-center\">")
-                                .append($("<a href=\"#\" class=\"btn btn-primary\">").text("Chọn")))))
-          }
-        })      
-      .fail(function(jqXHR, textStatus, errorThrown) {
-          console.error('Error fetching movies:', textStatus, errorThrown);
-      });
+$(document).ready(function () {
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+  }
+  $.getJSON('../DATA/theaters.json', function (theatersData) {
+    theaters = theatersData;
+    for (let i of theaters) {
+      $("#theater-select").append($("<option value=\"" + i._id + "\">").text(i.name))
+    }
+  })
+    .fail(function (jqXHR, textStatus, errorThrown) {
+      console.error('Error fetching movies:', textStatus, errorThrown);
+    });
+  $("#theaters-btn").click(function () {
+    setCookie('rapSelected', $("#theater-select").val(), 7);
+  })
 })  
