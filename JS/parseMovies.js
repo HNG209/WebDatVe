@@ -14,7 +14,6 @@ $(document).ready(function () {
     }
     return null;
   }
-
   function displayFilm(type, year, category) {
     var count = 0;
     for (let i of data) {
@@ -60,6 +59,9 @@ $(document).ready(function () {
       $("#phimnb").append($("<div class=\"container-fluid d-flex justify-content-center align-items-center\" style=\"height: 500px\">").append($("<h1 class=\"text-light\">").text("Không tìm thấy phim:(")));
   }
   $.getJSON('../DATA/movies.json', function (moviesData) {
+    if(getCookie('rapSelected') != null){
+      $("#theater-info").load('rapData.html');
+    }
     data = moviesData;
     $("#year-select").prop('disabled', true);
     $("#cate-select").prop('disabled', true);
