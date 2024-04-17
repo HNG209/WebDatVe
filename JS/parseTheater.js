@@ -19,5 +19,6 @@ $(document).ready(function () {
     });
   $("#theaters-btn").click(function () {
     setCookie('rapSelected', $("#theater-select").val(), 7);
+    $("#theater-info").load('rapData.html');
   })
 })  

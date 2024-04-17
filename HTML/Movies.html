@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="../CSS/style.css">
   <script src="../JS/jquery-3.6.0.min.js"></script>
   <script src="../bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
-  <script src="../JS/parseMovies.js"></script>
   <script src="../JS/loadFooter.js"></script>
   <script src="../JS/loadNavbar.js"></script>
 </head>
@@ -19,10 +18,11 @@
     <nav class="navbar navbar-expand-md navbar-dark" style="display: flex; justify-self: start;" id="web-navbar">
       <!-- load from navbar.html -->
     </nav>
-    <div class="container-fluid">
-      <div id="film-contain" class="container-fluid">
-        <div>
-          <div class="container mt-5 d-flex justify-content-center align-items-center">
+    <div class="container-fluid p-0">
+      <div id="film-contain" class="container-fluid p-0">
+        <div class="container-fluid p-0">
+          <hr style="border: 4px dashed white;">
+          <div class="container d-flex justify-content-center align-items-center">
             <div class="icon-filter">
               <img src="../IMAGE/filter-check-outline-icon.png" alt="">
             </div>
@@ -48,8 +48,10 @@
               <option value="ls">Lịch sử</option>
             </select>
           </div>
+          <hr style="border: 4px dashed white;">
           <div id="phimnb" class="container-fluid">
           </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <label for="film-select" class="form-label text-light mt-2 ms-3">Phim:</label>
           <select class="form-select mx-4" aria-label="Default select example" id="film-select" style="width: 150px;">
@@ -76,6 +78,9 @@
         <div id="phimnb" class="container-fluid">
 =======
 >>>>>>> 839a43b7fe64b60c91a6013cbad9c94e5a8bb00a
+=======
+          <hr style="border: 4px dashed white;">
+>>>>>>> 9778cf72b93033d062474e54de3d7e55192b52cb
         </div>
       </div>
     </div>
@@ -87,6 +92,7 @@
   </div>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="../JS/parseMovies.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,39 @@
+<div class="container-fluid mt-3">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1 id="rap-name" class="text-light">
+        </h1>
+        <p id="address" class="text-light">
+        </p>
+    </div>
+    <script>
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i];
+                while (cookie.charAt(0) === ' ') {
+                    cookie = cookie.substring(1, cookie.length);
+                }
+                if (cookie.indexOf(nameEQ) === 0) {
+                    return cookie.substring(nameEQ.length, cookie.length);
+                }
+            }
+            return null;
+        }
+        $(document).ready(function () {
+            var theaters;
+            $.getJSON('../DATA/theaters.json', function (theatersData) {
+                for (let i of theatersData) {
+                    if (i._id == getCookie('rapSelected')) {
+                        $("#rap-name").text(i.name);
+                        $("#address").text(i.Diachi);
+                        break;
+                    }
+                }
+            })
+                .fail(function (jqXHR, textStatus, errorThrown) {
+                    console.error('Error fetching movies:', textStatus, errorThrown);
+                });
+        })
+    </script>
+</div>

@@ -14,7 +14,6 @@ $(document).ready(function () {
     }
     return null;
   }
-
   function displayFilm(type, year, category) {
     var count = 0;
     for (let i of data) {
@@ -51,7 +50,8 @@ $(document).ready(function () {
             alert('Bạn chưa chọn rạp!');
           }
           else{
-            $("#theater-info").append($("<h1 class=\"text-light\">").text("ok"));
+            $("#theater-info").load('rapData.html');
+            alert("Đặt vé thành công!");
           }
         })
       }
@@ -60,6 +60,9 @@ $(document).ready(function () {
       $("#phimnb").append($("<div class=\"container-fluid d-flex justify-content-center align-items-center\" style=\"height: 500px\">").append($("<h1 class=\"text-light\">").text("Không tìm thấy phim:(")));
   }
   $.getJSON('../DATA/movies.json', function (moviesData) {
+    if(getCookie('rapSelected') != null){
+      $("#theater-info").load('rapData.html');
+    }
     data = moviesData;
     $("#year-select").prop('disabled', true);
     $("#cate-select").prop('disabled', true);
@@ -95,7 +98,8 @@ $(document).ready(function () {
           alert('Bạn chưa chọn rạp!');
         }
         else{
-          $("#theater-info").append($("<h1 class=\"text-light\">").text("ok"));
+          $("#theater-info").load('rapData.html');
+          alert("Đặt vé thành công!");
         }
       })
     }
@@ -157,9 +161,5 @@ $(document).ready(function () {
     var year = $("#year-select").val();
     var category = $("#cate-select").val();
     displayFilm(type, year, category);
-  })
-  $("#input").on("focusin", function () {
-    $("#cate-select").prop("checked", false);
-    $("#year-select").prop("checked", false);
   })
 })

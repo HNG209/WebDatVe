@@ -13,10 +13,18 @@ $(document).ready(function () {
         }
         return null;
     }
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+          expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
     $("#search").click(function (event) {
         event.preventDefault();
         var value = $("#input").val();
-        console.log(value);
         $("#phimnb").empty();
         $.getJSON('../DATA/movies.json', function (moviesData) {
             for (let i of moviesData) {
@@ -52,7 +60,8 @@ $(document).ready(function () {
                             alert('Bạn chưa chọn rạp!');
                         }
                         else {
-                            $("#theater-info").append($("<h1 class=\"text-light\">").text("ok"));
+                            $("#theater-info").load('rapData.html');
+                            alert("Đặt vé thành công!");
                         }
                     })
                 }
