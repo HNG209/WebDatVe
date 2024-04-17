@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Dặt Vé Phim - Home Page</title>
+  <title>SayPhim site - Home Page</title>
   <link rel="stylesheet" href="../bootstrap-5.2.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../CSS/style.css">
   <script src="../JS/jquery-3.6.0.min.js"></script>
@@ -59,11 +59,11 @@
     <div class="container-fluid">
       <nav aria-label="Page navigation">
         <ul class="pagination justify-content-center">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          <li class="page-item"><a class="page-link" id="pp">prev</a></li>
+          <li class="page-item"><a class="page-link active" id="p1">1</a></li>
+          <li class="page-item"><a class="page-link" id="p2">2</a></li>
+          <li class="page-item"><a class="page-link" id="p3">3</a></li>
+          <li class="page-item"><a class="page-link" id="pn">next</a></li>
         </ul>
       </nav>
     </div>
@@ -96,7 +96,48 @@
 
     <script>
       $(document).ready(function () {
-        $("#theater-list").load("theaterList.html");
+        var current = 1;
+        function inactive(){
+          $("#p1").attr("class", "page-link");
+          $("#p2").attr("class", "page-link");
+          $("#p3").attr("class", "page-link");
+
+        }
+        $("#pp").click(function () {
+          if (current - 1 != 0) {
+            current--;
+            $("#theater-list").load("theaterPage" + current + ".html");
+            inactive();
+            $("#p" + current).attr("class", "page-link active");
+          }
+        })
+        $("#pn").click(function () {
+          if (current + 1 != 4) {
+            current++;
+            $("#theater-list").load("theaterPage" + current + ".html");
+            inactive();
+            $("#p" + current).attr("class", "page-link active");
+          }
+        })
+        $("#p1").click(function () {
+          $("#theater-list").load("theaterPage1.html");
+          current = 1;
+          inactive();
+          $(this).attr("class", "page-link active");
+        })
+        $("#p2").click(function () {
+          $("#theater-list").load("theaterPage2.html");
+          current = 2;
+          inactive();
+          $(this).attr("class", "page-link active");
+        })
+        $("#p3").click(function () {
+          $("#theater-list").load("theaterPage3.html");
+          current = 3;
+          inactive();
+          $(this).attr("class", "page-link active");
+        })
+        $("#theater-list").load("theaterPage" + current + ".html");
       })
     </script>
 

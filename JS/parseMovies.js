@@ -51,6 +51,7 @@ $(document).ready(function () {
           }
           else{
             $("#theater-info").load('rapData.html');
+            alert("Đặt vé thành công!");
           }
         })
       }
@@ -98,6 +99,7 @@ $(document).ready(function () {
         }
         else{
           $("#theater-info").load('rapData.html');
+          alert("Đặt vé thành công!");
         }
       })
     }
@@ -159,9 +161,5 @@ $(document).ready(function () {
     var year = $("#year-select").val();
     var category = $("#cate-select").val();
     displayFilm(type, year, category);
-  })
-  $("#input").on("focusin", function () {
-    $("#cate-select").prop("checked", false);
-    $("#year-select").prop("checked", false);
   })
 })
