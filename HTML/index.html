@@ -68,7 +68,31 @@
       </nav>
     </div>
     <hr style="border: 4px dashed white;">
+    <div class="container-fluid p-0 d-flex justify-content-center w-75 my-4">
+      <form action="" class="form-control d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-black my-4 mx-4">Giới thiệu về nhóm của chúng mình!</h1>
 
+        <p class="text-black w-75">website SayPhim là 1 sản phẩm của chúng mình cho bài tập lớn môn hệ thống công nghệ
+          web, dự án sử dụng các công cụ hỗ trợ viết code như Visual Studio Code, các công cụ quản lý dự án nhóm như
+          Github để có thể sửa đổi dễ dàng từ bất kì đâu và bởi bất kì ai.</p>
+
+        <p class="text-black w-75">Website có sử dụng các API như bootstrap 5 và jquery để dễ dàng, thuận tiện và linh
+          hoạt hơn trong việc xử lý.</p>
+        <hr style="border: 4px dashed black;width: 100%;">
+
+        <h3 class="text-black">
+          Các thành viên trong nhóm phát triển của mình:
+        </h3>
+      </form>
+    </div>
+    <hr style="border: 4px dashed white;">
+
+    <div class="container-fluid text-center">
+      <h1 class="text-warning my-3">Cùng chọn phim nhé!</h1>
+      <button type="button" class="btn btn-warning my-3"><a href="Movies.html" class="text-black">Chọn phim</a></button>
+    </div>
+
+    <hr style="border: 4px dashed white;">
     <div class="container my-5">
       <div class="row">
         <div class="col-md-6 offset-md-3">
@@ -97,7 +121,7 @@
     <script>
       $(document).ready(function () {
         var current = 1;
-        function inactive(){
+        function inactive() {
           $("#p1").attr("class", "page-link");
           $("#p2").attr("class", "page-link");
           $("#p3").attr("class", "page-link");
