@@ -10,6 +10,8 @@
         "released": "22/03/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/3DenMang.jpg",
         "type": "pnb",
+        "rating": 5,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "kd"
     },
     {
@@ -23,6 +25,8 @@
         "released": "08/03/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/2.Kung_Fu_Pandaposter.jpg",
         "type": "pnb",
+        "rating": 4,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "da"
     },
     {
@@ -36,6 +40,8 @@
         "released": "22/03/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/6MuonViNhanGian.jpg",
         "type": "pnb",
+        "rating": 4,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "da"
     },
     {
@@ -49,6 +55,8 @@
         "released": "10/02/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/Dao,PhovàPiano.jpg",
         "type": "pnb",
+        "rating": 5,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "hd"
     },
     {
@@ -62,6 +70,8 @@
         "released": "05/04/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/QuyCai.jpg",
         "type": "pnb",
+        "rating": 3,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "kd"
     },
     {
@@ -75,6 +85,8 @@
         "released": "08/03/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/VongNuDoatHon.jpg",
         "type": "pnb",
+        "rating": 5,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "kd"
     },
     {
@@ -88,6 +100,8 @@
         "released": "22/03/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/7SangDen.webp",
         "type": "pnb",
+        "rating": 4,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "ls"
     },
     {
@@ -101,6 +115,8 @@
         "released": "01/03/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/5HanhTinhCat.jpg",
         "type": "pnb",
+        "rating": 5,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "hd"
     },
     {
@@ -114,6 +130,8 @@
         "released": "15/03/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/Quat-Mo-Trung-Maposter.jpg",
         "type": "pnb",
+        "rating": 5,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "kd"
     },
     {
@@ -127,6 +145,8 @@
         "released": "29/03/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/GodzillaxKong.jpg",
         "type": "pnb",
+        "rating": 4,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "da"
     },
     {
@@ -140,6 +160,8 @@
         "released": "19/04/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/2muaHecuaLuca.jpg",
         "type": "psc",
+        "rating": 3,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "da"
     },
     {
@@ -153,6 +175,8 @@
         "released": "26/04/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/VayHamKeTrungPhat.jpg",
         "type": "psc",
+        "rating": 4,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "hd"
     },
     {
@@ -166,6 +190,8 @@
         "released": "26/04/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/6LatMat.jpg",
         "type": "psc",
+        "rating": 3,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "da"
     },
     {
@@ -179,6 +205,8 @@
         "released": "03/05/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/8KeTheThan.jpg",
         "type": "psc",
+        "rating": 3,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "da"
     },
     {
@@ -192,6 +220,8 @@
         "released": "10/05/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/9NhungTeBao.jpg",
         "type": "psc",
+        "rating": 4,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "da"
     },
     {
@@ -205,6 +235,8 @@
         "released": "19/04/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/1Abigail.jpg",
         "type": "psc",
+        "rating": 4,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "hd"
     },
     {
@@ -218,6 +250,8 @@
         "released": "19/04/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/3TuVienMau.jpg",
         "type": "psc",
+        "rating": 3,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "kd"
     },
     {
@@ -231,6 +265,8 @@
         "released": "26/04/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/5Ozi.jpg",
         "type": "psc",
+        "rating": 5,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "da"
     },
     {
@@ -244,6 +280,8 @@
         "released": "26/04/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/7TaKhucTrieuVong.png",
         "type": "psc",
+        "rating": 3,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "kd"
     },
     {
@@ -257,6 +295,8 @@
         "released": "10/05/2024",
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/10Tarot.jpg",
         "type": "psc",
+        "rating": 4,
+        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM"],
         "category": "hd"
     }
 ]

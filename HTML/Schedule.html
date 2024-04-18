@@ -18,7 +18,8 @@
 <body>
   <div class="container-fluid p-0 bg-black">
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-secondary" style="display: flex; justify-self: start;" id="web-navbar">
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary" style="display: flex; justify-self: start;"
+      id="web-navbar">
       <!-- load from navbar.html -->
     </nav>
     <hr style="border: 4px dashed white;" class="mt-4">
@@ -30,6 +31,7 @@
     <hr style="border: 4px dashed white;">
 
     <div class="container-fluid p-0" id="film-schedule">
+      <!-- load by jquery -->
     </div>
     <div class="container-fluid">
       <nav aria-label="Page navigation">
@@ -45,8 +47,35 @@
     <hr style="border: 4px dashed white;" class="my-3">
 
     <script>
-      $(document).ready(function(){
-        $("#film-schedule").load("filmSchedule.html");
+      $(document).ready(function () {
+        var theaters;
+        // $("#film-schedule").load("filmSchedule.html");
+        $.getJSON('../DATA/movies.json', function (theatersData) {
+          theaters = theatersData;
+          for (let i of theaters) {
+            $.get("ScheduleTemplate.html", function(data){
+              var $html = $(data);
+
+              $html.find("#overlay").text(i.released);
+              $html.find("#title").text(i.name);
+              $html.find("#description").text(i.description);
+              $html.find("#img").attr("src", i.imgPath);
+              for(var k = 0; k < i.rating; k++){
+                $html.find("#stars").append($("<i class=\"bi bi-star-fill star-icon\">"));
+              }
+
+              for(let k of i.schedule){
+                $html.find("#schedule").append($("<button type=\"button\" class=\"btn btn-warning time-btn\">").text(k));
+              }
+
+              $("#film-schedule").append($html);
+
+            })
+          }
+        })
+          .fail(function (jqXHR, textStatus, errorThrown) {
+            console.error('Error fetching movies:', textStatus, errorThrown);
+          });
       })
     </script>
     <!-- Footer -->
