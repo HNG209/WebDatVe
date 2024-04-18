@@ -11,21 +11,44 @@
   <script src="../JS/jquery-3.6.0.min.js"></script>
   <script src="../JS/loadFooter.js"></script>
   <script src="../JS/loadNavbar.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/schedule.css">
 </head>
 
 <body>
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-0 bg-black">
 
     <nav class="navbar navbar-expand-md navbar-dark bg-secondary" style="display: flex; justify-self: start;" id="web-navbar">
       <!-- load from navbar.html -->
     </nav>
+    <hr style="border: 4px dashed white;" class="mt-4">
 
-    <div class="container-fluid">
-      <section>
-        Lịch
-      </section>
+    <div class="container-fluid my-5 text-center">
+      <h1 class="text-warning">Lịch chiếu phim</h1>
     </div>
 
+    <hr style="border: 4px dashed white;">
+
+    <div class="container-fluid p-0" id="film-schedule">
+    </div>
+    <div class="container-fluid">
+      <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" id="pp">prev</a></li>
+          <li class="page-item"><a class="page-link active" id="p1">1</a></li>
+          <li class="page-item"><a class="page-link" id="p2">2</a></li>
+          <li class="page-item"><a class="page-link" id="p3">3</a></li>
+          <li class="page-item"><a class="page-link" id="pn">next</a></li>
+        </ul>
+      </nav>
+    </div>
+    <hr style="border: 4px dashed white;" class="my-3">
+
+    <script>
+      $(document).ready(function(){
+        $("#film-schedule").load("filmSchedule.html");
+      })
+    </script>
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white" style="background-color: #1c2331" id="web-footer">
       <!-- load from footer.html -->
