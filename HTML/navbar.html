@@ -79,15 +79,109 @@
           </div>
         </div>
         <li class="nav-item">
-          <a class="nav-link mx-2 text-center" href="../HTML/Signup.html">
+          <a class="nav-link mx-2 text-center" data-bs-toggle="modal" data-bs-target="#modalId"
+            href="../HTML/Signup.html">
             <img src="../IMAGE/user.png" height="40" alt="">
             <p></p>
           </a>
+          <!-- Button trigger modal -->
+          <!-- Modal -->
+          <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalTitleId">
+                    Login
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="mb-3 d-flex gap-2">
+                      <label for="" class="form-label">Username:</label>
+                      <input type="text" class="form-control" name="username" id="us" aria-describedby="helpId"
+                        placeholder="Username" />
+                    </div>
+                    <div class="mb-3 d-flex gap-2">
+                      <label for="" class="form-label">Password:</label>
+                      <input type="text" class="form-control" name="password" id="pwd" aria-describedby="helpId"
+                        placeholder="Password" />
+                    </div>
+
+                  </div>
+                </div>
+                <div class="modal-footer d-flex">
+                  <button type="button" class="btn btn-dark" data-bs-dismiss="#modalId" data-bs-target="#modalIdRegister">Register</button>
+                  <button type="button" class="btn btn-primary">Login</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal trigger button -->
+          <!-- Modal Body -->
+          <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+            <div class="modal fade" id="modalIdRegister" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalTitleId">
+                    Modal title
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">Body</div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">Save</button>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+
+          <!-- Optional: Place to the bottom of scripts -->
+          <script>
+            const myModal = new bootstrap.Modal(
+              document.getElementById("modalId"),
+              options,
+            );
+            const myModal2 = new bootstrap.Modal(
+              document.getElementById("modalIdRegister"),
+              options,
+            );
+          </script>
+
+          <script>
+            var modalId = document.getElementById('modalId');
+            var modalIdRegister = document.getElementById('modalIdRegister')
+            modalId.addEventListener('show.bs.modal', function (event) {
+              // Button that triggered the modal
+              let button = event.relatedTarget;
+              // Extract info from data-bs-* attributes
+              let recipient = button.getAttribute('data-bs-whatever');
+
+              // Use above variables to manipulate the DOM
+            });
+            modalIdRegister.addEventListener('show.bs.modal', function (event) {
+              // Button that triggered the modal
+              let button1 = event.relatedTarget;
+              // Extract info from data-bs-* attributes
+              let recipient1 = button1.getAttribute('data-bs-whatever');
+
+              // Use above variables to manipulate the DOM
+            });
+          </script>
+
         </li>
       </ul>
     </div>
   </div>
   <div class="container-fluid" id="theater-info">
+
 
   </div>
   <script src="../JS/parseTheater.js"></script>
