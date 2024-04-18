@@ -29,6 +29,326 @@
 	position: relative;
 	left: 800px;
 }
+.form{
+    z-index: -100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;  
+}
+.form.active{
+    height: 650px;
+}
+
+#form_box_login{
+    margin-top: -50px;
+    background: transparent;
+    border: 1px solid rgb(87, 85, 85);
+    border-radius: 15px;
+    backdrop-filter: blur(50px);
+    position: relative;
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.form_box_register{
+    
+    background: transparent;
+    border: 1px solid rgb(87, 85, 85);
+    border-radius: 15px;
+    backdrop-filter: blur(50px);
+    position: relative;
+    width: 450px;
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.form_input1{
+    position: relative;
+    padding: 10px 30px; 
+}
+.form_input1 input{
+    border-radius: 50px;
+    padding: 20px 25px;
+    margin-left: 15px;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid black;
+}
+.form_input1 input:hover{
+    border-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s;
+    background: transparent;
+}
+.form-control{
+	border: #000;
+}
+input[type="email"]{
+    color: white;
+    font-size: 15px;
+}
+input[type="text"]{
+    color: white;
+    font-size: 15px;
+}
+input[type="password"]{
+    color: white;
+    font-size: 15px;
+}
+#signin1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px ;
+}
+#signin1 button{
+    background: #fff;
+    color: rgb(27, 25, 25);
+    width: 360px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid #b9b9b9;
+    font-size: 16px;
+    
+}
+#signin1 button p{
+    margin-top: 12px;
+}
+#signin1 button:hover{
+    background-color: #292828;
+    color: #fff;
+    border-color: #292828;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#check1{
+    color: white;
+    margin: 20px 52px 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#check1 input, label{
+    cursor: pointer;
+}
+
+#check1 a:hover{
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+#button_social1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} 
+#button_social1 #face1{
+     color: #1877f2;
+     padding: 5px 5px;
+     font-size: 20px;
+}
+#button_social1 a{
+     color: #000;
+     display: block;
+     width: 150px;
+     
+     border: 1px solid rgba(255, 255, 255, 0.4);
+     border-radius: 5px;
+     background: #fff;
+}
+#button_social1 #face1 i{
+     font-size: 25px;
+}
+#button_social1 #tw1{
+     padding: 5px 5px;
+     font-size: 20px;
+     color: #1c93e4;
+}
+#button_social1 .item3{
+     background-color: #ffffff;
+     line-height: 28px;
+     padding: 8px;
+}
+#button_social1 .item4{
+     background-color: #ffffff;
+     line-height: 28px;
+     padding: 8px;
+}
+.item3, .item4{
+     margin: 5px;
+}
+ #button_social1 a:hover{
+     background-color: #292828;
+     color: #fff;
+     border-color: #292828;
+     transition: all 0.3s;
+}
+
+
+
+.form_box_register.active {
+    display: block;
+    transform: translateX(0px);
+
+}
+#form_box_login.active{
+    display:none;
+}
+
+
+.form_box_register{
+    position: absolute;
+    transform: translateX(400px);
+    display: none;
+}
+
+#form_input{
+    position: relative;
+    margin: 20px 0;
+}
+#form_input input{
+    border-radius: 50px;
+    padding: 20px 25px;
+    width: 360px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid black;
+}
+#form_input input:hover{
+    border-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s;
+    background: transparent;
+}
+input[type="email"]{
+    color: #fff;
+    font-size: 15px;
+}
+input[type="password"]{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+#signin{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#signin button{
+    background: #fff;
+    color: rgb(27, 25, 25);
+    width: 360px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid #b9b9b9;
+    font-size: 16px;
+    
+}
+#signin button p{
+    margin-top: 12px;
+}
+#signin button:hover{
+    background-color: #292828;
+    color: #fff;
+    border-color: #292828;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#check{
+    margin: 20px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#check input, label{
+    cursor: pointer;
+}
+
+#check a:hover{
+    text-decoration: underline;
+    transition: all 0.3s;
+}
+
+.loginn {
+    text-align: center;
+    width: 100%;
+    
+    margin-bottom: 12px;
+}
+.loginn label{
+    color: white;
+}
+#button_social{
+   text-align: center;
+   display: flex;
+
+}
+
+#button_social #face{
+    color: #1877f2;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+#button_social a{
+    color: #000;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    background: #fff;
+}
+#button_social #face i{
+    font-size: 25px;
+}
+
+#button_social #tw{
+    padding: 5px 5px;
+    font-size: 20px;
+    color: #1c93e4;
+}
+#button_social .item1{
+    background-color: #ffffff;
+    line-height: 28px;
+    padding: 8px;
+}
+#button_social .item2{
+    background-color: #ffffff;
+    line-height: 28px;
+    padding: 8px;
+}
+.item1, .item2{
+    margin: 5px;
+}
+#button_social a:hover{
+    background-color: #292828;
+    color: #fff;
+    border-color: #292828;
+    transition: all 0.3s;
+}
+
+#register{
+    font-size: 15px;
+    color: #fff ;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+#register p a{
+    color: #fff;
+    font-weight: 600;
+}
+#register p a:hover{
+    text-decoration: underline;
+}
+
 
 @media(max-width: 776px){
 	.search a img{
@@ -350,16 +670,3 @@ body{
 .col-xs-4:nth-child(2n+2) { 
   background: black; 
 } 
-
-
-.navbar .submenu{
-	display: none;
-	position: fixed;
-}
-.navbar :hover .submenu{
-	display: flex;
-	position: fixed;
-}
-.navbar .submenu a{
-	padding: 2px;
-}

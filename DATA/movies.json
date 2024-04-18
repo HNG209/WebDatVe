@@ -11,7 +11,13 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/3DenMang.jpg",
         "type": "pnb",
         "rating": 5,
-        "schedule": ["10:00 AM", "3:00 PM", "6:030 PM", "9:00 PM","11:05 PM"],
+        "schedule": [
+            "10:00 AM",
+            "3:00 PM",
+            "6:030 PM",
+            "9:00 PM",
+            "11:05 PM"
+        ],
         "category": "kd"
     },
     {
@@ -26,7 +32,15 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/2.Kung_Fu_Pandaposter.jpg",
         "type": "pnb",
         "rating": 4,
-        "schedule": ["8:30 AM","10:00 AM", "3:00 PM", "5:25 PM", "9:00 PM","10:25 PM", "11:55 PM"],
+        "schedule": [
+            "8:30 AM",
+            "10:00 AM",
+            "3:00 PM",
+            "5:25 PM",
+            "9:00 PM",
+            "10:25 PM",
+            "11:55 PM"
+        ],
         "category": "da"
     },
     {
@@ -41,7 +55,16 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/6MuonViNhanGian.jpg",
         "type": "pnb",
         "rating": 4,
-        "schedule": ["9:10 AM", "10:00 AM","1:25 PM", "3:00 PM", "6:00 PM", "9:00 PM","10:25 PM","11:40 PM"],
+        "schedule": [
+            "9:10 AM",
+            "10:00 AM",
+            "1:25 PM",
+            "3:00 PM",
+            "6:00 PM",
+            "9:00 PM",
+            "10:25 PM",
+            "11:40 PM"
+        ],
         "category": "da"
     },
     {
@@ -56,7 +79,16 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/Dao,PhovàPiano.jpg",
         "type": "pnb",
         "rating": 5,
-        "schedule": ["9:25 AM","10:00 AM","1:15 PM", "3:00 PM", "6:00 PM", "9:00 PM","10:40 PM","11:55 PM"],
+        "schedule": [
+            "9:25 AM",
+            "10:00 AM",
+            "1:15 PM",
+            "3:00 PM",
+            "6:00 PM",
+            "9:00 PM",
+            "10:40 PM",
+            "11:55 PM"
+        ],
         "category": "hd"
     },
     {
@@ -71,7 +103,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/QuyCai.jpg",
         "type": "pnb",
         "rating": 3,
-        "schedule": ["10:00 AM","1:35PM", "3:00 PM", "6:30 PM", "9:45 PM","11:55 PM"],
+        "schedule": [
+            "10:00 AM",
+            "1:35PM",
+            "3:00 PM",
+            "6:30 PM",
+            "9:45 PM",
+            "11:55 PM"
+        ],
         "category": "kd"
     },
     {
@@ -86,7 +125,13 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/VongNuDoatHon.jpg",
         "type": "pnb",
         "rating": 5,
-        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM","11:40 PM"],
+        "schedule": [
+            "10:00 AM",
+            "3:00 PM",
+            "6:00 PM",
+            "9:00 PM",
+            "11:40 PM"
+        ],
         "category": "kd"
     },
     {
@@ -101,7 +146,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/7SangDen.webp",
         "type": "pnb",
         "rating": 4,
-        "schedule": ["10:00 AM","1:25 PM", "3:00 PM", "6:00 PM", "8:50 PM","11:55 PM"],
+        "schedule": [
+            "10:00 AM",
+            "1:25 PM",
+            "3:00 PM",
+            "6:00 PM",
+            "8:50 PM",
+            "11:55 PM"
+        ],
         "category": "ls"
     },
     {
@@ -116,7 +168,13 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/5HanhTinhCat.jpg",
         "type": "pnb",
         "rating": 5,
-        "schedule": ["10:00 AM", "3:00 PM", "6:00 PM", "9:00 PM","11:55 PM"],
+        "schedule": [
+            "10:00 AM",
+            "3:00 PM",
+            "6:00 PM",
+            "9:00 PM",
+            "11:55 PM"
+        ],
         "category": "hd"
     },
     {
@@ -131,7 +189,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/Quat-Mo-Trung-Maposter.jpg",
         "type": "pnb",
         "rating": 5,
-        "schedule": ["10:05 AM", "1:25","3:55 PM", "6:25 PM", "8:30 PM","11:55 PM"],
+        "schedule": [
+            "10:05 AM",
+            "1:25",
+            "3:55 PM",
+            "6:25 PM",
+            "8:30 PM",
+            "11:55 PM"
+        ],
         "category": "kd"
     },
     {
@@ -146,7 +211,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimtieubieu/GodzillaxKong.jpg",
         "type": "pnb",
         "rating": 4,
-        "schedule": ["9:15 AM","12:05 PM", "3:10 PM", "6:05 PM", "9:00 PM","11:05 PM"],
+        "schedule": [
+            "9:15 AM",
+            "12:05 PM",
+            "3:10 PM",
+            "6:05 PM",
+            "9:00 PM",
+            "11:05 PM"
+        ],
         "category": "da"
     },
     {
@@ -161,7 +233,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/2muaHecuaLuca.jpg",
         "type": "psc",
         "rating": 3,
-        "schedule": ["10:05 AM","1:15 PM", "3:15 PM", "6:00 PM", "9:00 PM","11:55 PM"],
+        "schedule": [
+            "10:05 AM",
+            "1:15 PM",
+            "3:15 PM",
+            "6:00 PM",
+            "9:00 PM",
+            "11:55 PM"
+        ],
         "category": "da"
     },
     {
@@ -176,7 +255,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/VayHamKeTrungPhat.jpg",
         "type": "psc",
         "rating": 4,
-        "schedule": ["10:00 AM", "2:15 PM","3:40", "5:55 PM", "8:50 PM","11:40 PM"],
+        "schedule": [
+            "10:00 AM",
+            "2:15 PM",
+            "3:40",
+            "5:55 PM",
+            "8:50 PM",
+            "11:40 PM"
+        ],
         "category": "hd"
     },
     {
@@ -191,7 +277,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/6LatMat.jpg",
         "type": "psc",
         "rating": 3,
-        "schedule": ["10:00 AM","1:15 PM", "3:05 PM", "6:25 PM", "9:30 PM","10:40 PM"],
+        "schedule": [
+            "10:00 AM",
+            "1:15 PM",
+            "3:05 PM",
+            "6:25 PM",
+            "9:30 PM",
+            "10:40 PM"
+        ],
         "category": "da"
     },
     {
@@ -206,7 +299,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/8KeTheThan.jpg",
         "type": "psc",
         "rating": 3,
-        "schedule": ["10:00 AM", "3:00 PM", "6:30 PM", "9:15 PM","10:30 PM","11:55 PM"],
+        "schedule": [
+            "10:00 AM",
+            "3:00 PM",
+            "6:30 PM",
+            "9:15 PM",
+            "10:30 PM",
+            "11:55 PM"
+        ],
         "category": "da"
     },
     {
@@ -221,7 +321,15 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/9NhungTeBao.jpg",
         "type": "psc",
         "rating": 4,
-        "schedule": ["9:50 AM","1:25 PM", "3:00 PM", "6:00 PM","7:55 PM", "9:00 PM","11:55 PM"],
+        "schedule": [
+            "9:50 AM",
+            "1:25 PM",
+            "3:00 PM",
+            "6:00 PM",
+            "7:55 PM",
+            "9:00 PM",
+            "11:55 PM"
+        ],
         "category": "da"
     },
     {
@@ -236,7 +344,16 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/1Abigail.jpg",
         "type": "psc",
         "rating": 4,
-        "schedule": ["10:00 AM", "1:05 PM","2:50 PM","4:55 PM", "6:00 PM", "8:10 PM","10:40 PM","11:55 PM"],
+        "schedule": [
+            "10:00 AM",
+            "1:05 PM",
+            "2:50 PM",
+            "4:55 PM",
+            "6:00 PM",
+            "8:10 PM",
+            "10:40 PM",
+            "11:55 PM"
+        ],
         "category": "hd"
     },
     {
@@ -251,7 +368,13 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/3TuVienMau.jpg",
         "type": "psc",
         "rating": 3,
-        "schedule": ["10:00 AM", "1:05PM", "5:15 PM", "9:00 PM","11:05 PM"],
+        "schedule": [
+            "10:00 AM",
+            "1:05PM",
+            "5:15 PM",
+            "9:00 PM",
+            "11:05 PM"
+        ],
         "category": "kd"
     },
     {
@@ -266,7 +389,15 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/5Ozi.jpg",
         "type": "psc",
         "rating": 5,
-        "schedule": ["10:00 AM", "1:00 PM", "2:50 PM","5:55 PM","7:30 PM", "9:00 PM","11:30 PM"],
+        "schedule": [
+            "10:00 AM",
+            "1:00 PM",
+            "2:50 PM",
+            "5:55 PM",
+            "7:30 PM",
+            "9:00 PM",
+            "11:30 PM"
+        ],
         "category": "da"
     },
     {
@@ -281,7 +412,14 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/7TaKhucTrieuVong.png",
         "type": "psc",
         "rating": 3,
-        "schedule": ["10:00 AM", "1:05 PM","3:00 PM", "7:30 PM", "9:00 PM","11:30 PM"],
+        "schedule": [
+            "10:00 AM",
+            "1:05 PM",
+            "3:00 PM",
+            "7:30 PM",
+            "9:00 PM",
+            "11:30 PM"
+        ],
         "category": "kd"
     },
     {
@@ -296,7 +434,15 @@
         "imgPath": "../IMAGE/FILM_IMAGES/phimsapchieu/10Tarot.jpg",
         "type": "psc",
         "rating": 4,
-        "schedule": ["11:05 AM","12:55 PM","2:05 PM", "3:30 PM", "6:00 PM","7:45 PM" ,"9:00 PM"],
+        "schedule": [
+            "11:05 AM",
+            "12:55 PM",
+            "2:05 PM",
+            "3:30 PM",
+            "6:00 PM",
+            "7:45 PM",
+            "9:00 PM"
+        ],
         "category": "hd"
     }
 ]
